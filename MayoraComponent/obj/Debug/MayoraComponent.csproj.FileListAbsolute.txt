@@ -1,0 +1,442 @@
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\MayoraComponent.dll.config
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\MayoraComponent.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\MayoraComponent.pdb
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Antlr3.Runtime.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Core.Web.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\EntityFramework.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\EntityFramework.SqlServer.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.CSharp.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.Owin.Cors.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.Owin.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.Web.Infrastructure.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Newtonsoft.Json.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Owin.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.ComponentModel.DataAnnotations.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Configuration.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Data.DataSetExtensions.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Data.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Drawing.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.EnterpriseServices.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Net.Http.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Runtime.Serialization.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Security.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.ApplicationServices.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Cors.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.DynamicData.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Entity.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Extensions.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Helpers.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Mvc.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Razor.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Services.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Webpages.Deployment.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Webpages.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Webpages.Razor.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Xml.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Xml.Linq.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\WebGrease.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\HtmlTags.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\StructureMap.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.Owin.Security.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Heroic.AutoMapper.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\AutoMapper.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\WebActivatorEx.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\StructureMap.Net4.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Heroic.Web.IoC.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Http.WebHost.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Http.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Twilio.Api.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.Web.Mvc.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Linq.Dynamic.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Humanizer.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\License.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Optimization.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Net.Http.Formatting.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\RestSharp.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\FluentValidationNA.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Core.Web.pdb
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Antlr3.Runtime.pdb
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\EntityFramework.xml
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\EntityFramework.SqlServer.xml
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.Owin.xml
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.Owin.Cors.xml
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Newtonsoft.Json.xml
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Razor.xml
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Webpages.xml
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Webpages.Deployment.xml
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Webpages.Razor.xml
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Helpers.xml
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Mvc.xml
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.Owin.Security.xml
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Http.WebHost.xml
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Http.xml
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Net.Http.Formatting.xml
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\obj\Debug\MayoraComponent.csprojResolveAssemblyReference.cache
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\obj\Debug\MayoraComponent.dll
+D:\Temp\MyWeb - oNE\trunk\MayoraComponent\obj\Debug\MayoraComponent.pdb
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\MayoraComponent.dll.config
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\MayoraComponent.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\MayoraComponent.pdb
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Antlr3.Runtime.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Core.Web.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\EntityFramework.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\EntityFramework.SqlServer.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.CSharp.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.Owin.Cors.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.Owin.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.Web.Infrastructure.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Owin.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.ComponentModel.DataAnnotations.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Configuration.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Data.DataSetExtensions.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Data.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Drawing.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.EnterpriseServices.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Net.Http.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Runtime.Serialization.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Security.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.ApplicationServices.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Cors.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.DynamicData.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Entity.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Extensions.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Helpers.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Mvc.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Razor.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Services.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Webpages.Deployment.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Webpages.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Webpages.Razor.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Xml.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Xml.Linq.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\WebGrease.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.AspNet.Identity.Core.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\HtmlTags.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\StructureMap.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.Owin.Security.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Heroic.AutoMapper.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\AutoMapper.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\WebActivatorEx.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\StructureMap.Net4.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Heroic.Web.IoC.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Http.WebHost.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Http.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Twilio.Api.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.Web.Mvc.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Linq.Dynamic.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\License.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.Owin.Security.OAuth.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.Owin.Security.Cookies.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Optimization.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Net.Http.Formatting.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\RestSharp.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\FluentValidationNA.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Core.Web.pdb
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Antlr3.Runtime.pdb
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\EntityFramework.xml
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\EntityFramework.SqlServer.xml
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.Owin.xml
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.Owin.Cors.xml
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Newtonsoft.Json.xml
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Razor.xml
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Webpages.xml
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Webpages.Deployment.xml
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Webpages.Razor.xml
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Helpers.xml
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Mvc.xml
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.Owin.Security.xml
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Http.WebHost.xml
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Http.xml
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.Owin.Security.OAuth.xml
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.Owin.Security.Cookies.xml
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\System.Net.Http.Formatting.xml
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\obj\Debug\MayoraComponent.csprojResolveAssemblyReference.cache
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\obj\Debug\MayoraComponent.dll
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\obj\Debug\MayoraComponent.pdb
+D:\One-Temp\MyWeb - oNE\trunk\MayoraComponent\bin\Newtonsoft.Json.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\MayoraComponent.dll.config
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\MayoraComponent.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\MayoraComponent.pdb
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\Antlr3.Runtime.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\Core.Web.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\EntityFramework.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\EntityFramework.SqlServer.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.CSharp.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.Owin.Cors.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.Owin.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.Web.Infrastructure.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\Newtonsoft.Json.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\Owin.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\System.ComponentModel.DataAnnotations.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\System.Configuration.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\System.Data.DataSetExtensions.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\System.Data.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\System.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\System.Drawing.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\System.EnterpriseServices.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\System.Net.Http.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\System.Runtime.Serialization.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\System.Security.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.ApplicationServices.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Cors.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.DynamicData.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Entity.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Extensions.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Helpers.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Mvc.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Razor.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Services.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Webpages.Deployment.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Webpages.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Webpages.Razor.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\System.Xml.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\System.Xml.Linq.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\WebGrease.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\HtmlTags.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\StructureMap.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.Owin.Security.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\Heroic.AutoMapper.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\AutoMapper.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\WebActivatorEx.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\StructureMap.Net4.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\Heroic.Web.IoC.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Http.WebHost.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Http.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\Twilio.Api.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.Web.Mvc.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\System.Linq.Dynamic.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\License.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Optimization.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\System.Net.Http.Formatting.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\RestSharp.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\FluentValidationNA.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\Core.Web.pdb
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\Antlr3.Runtime.pdb
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\EntityFramework.xml
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\EntityFramework.SqlServer.xml
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.Owin.xml
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.Owin.Cors.xml
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\Newtonsoft.Json.xml
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Razor.xml
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Webpages.xml
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Webpages.Deployment.xml
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Webpages.Razor.xml
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Helpers.xml
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Mvc.xml
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.Owin.Security.xml
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Http.WebHost.xml
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\System.Web.Http.xml
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\bin\System.Net.Http.Formatting.xml
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\obj\Debug\MayoraComponent.csprojResolveAssemblyReference.cache
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\obj\Debug\MayoraComponent.dll
+D:\Project\MyWeb - oNE\trunk\MayoraComponent\obj\Debug\MayoraComponent.pdb
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\MayoraComponent.dll.config
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\MayoraComponent.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\MayoraComponent.pdb
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Antlr3.Runtime.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Core.Web.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\EntityFramework.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\EntityFramework.SqlServer.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Microsoft.CSharp.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Microsoft.Owin.Cors.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Microsoft.Owin.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Microsoft.Web.Infrastructure.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Newtonsoft.Json.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Owin.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.ComponentModel.DataAnnotations.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Configuration.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Data.DataSetExtensions.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Data.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Drawing.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.EnterpriseServices.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Net.Http.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Runtime.Serialization.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Security.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.ApplicationServices.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.Cors.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.DynamicData.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.Entity.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.Extensions.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.Helpers.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.Mvc.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.Razor.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.Services.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.Webpages.Deployment.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.Webpages.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.Webpages.Razor.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Xml.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Xml.Linq.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\WebGrease.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\HtmlTags.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\StructureMap.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Microsoft.Owin.Security.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Heroic.AutoMapper.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\AutoMapper.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\WebActivatorEx.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\StructureMap.Net4.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Heroic.Web.IoC.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.Http.WebHost.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.Http.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Twilio.Api.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Microsoft.Web.Mvc.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Linq.Dynamic.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\License.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.Optimization.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Net.Http.Formatting.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\RestSharp.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\FluentValidationNA.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Core.Web.pdb
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Antlr3.Runtime.pdb
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\EntityFramework.xml
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\EntityFramework.SqlServer.xml
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Microsoft.Owin.xml
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Microsoft.Owin.Cors.xml
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Newtonsoft.Json.xml
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.Razor.xml
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.Webpages.xml
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.Webpages.Deployment.xml
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.Webpages.Razor.xml
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.Helpers.xml
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.Mvc.xml
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Microsoft.Owin.Security.xml
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.Http.WebHost.xml
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.Http.xml
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Net.Http.Formatting.xml
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\obj\Debug\MayoraComponent.csprojResolveAssemblyReference.cache
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\obj\Debug\MayoraComponent.dll
+D:\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\obj\Debug\MayoraComponent.pdb
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\MayoraComponent.dll.config
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\MayoraComponent.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\MayoraComponent.pdb
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Antlr3.Runtime.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Core.Web.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\EntityFramework.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\EntityFramework.SqlServer.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Microsoft.CSharp.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Microsoft.Owin.Cors.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Microsoft.Owin.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Newtonsoft.Json.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Owin.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.ComponentModel.DataAnnotations.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Configuration.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Data.DataSetExtensions.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Data.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Drawing.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.EnterpriseServices.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Net.Http.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Runtime.Serialization.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Security.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.ApplicationServices.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.Cors.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.DynamicData.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.Entity.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.Extensions.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.Helpers.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.Mvc.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.Razor.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.Services.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.Webpages.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.Webpages.Razor.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Xml.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Xml.Linq.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\WebGrease.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\WebActivatorEx.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Twilio.Api.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Microsoft.Owin.Security.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Heroic.AutoMapper.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\AutoMapper.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Heroic.Web.IoC.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\StructureMap.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\HtmlTags.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.Http.WebHost.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.Http.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\License.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Microsoft.Web.Mvc.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\StructureMap.Net4.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Linq.Dynamic.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\RestSharp.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.Optimization.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Net.Http.Formatting.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\FluentValidationNA.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Core.Web.pdb
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Core.Web.dll.config
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Antlr3.Runtime.pdb
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\EntityFramework.xml
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\EntityFramework.SqlServer.xml
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Microsoft.Owin.xml
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Microsoft.Owin.Cors.xml
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Newtonsoft.Json.xml
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.Razor.xml
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.Webpages.xml
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.Webpages.Razor.xml
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.Helpers.xml
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.Mvc.xml
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Microsoft.Owin.Security.xml
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.Http.WebHost.xml
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Web.Http.xml
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\bin\System.Net.Http.Formatting.xml
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\obj\Debug\MayoraComponent.csproj.AssemblyReference.cache
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\obj\Debug\MayoraComponent.csproj.CoreCompileInputs.cache
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\obj\Debug\MayoraComponent.csproj.CopyComplete
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\obj\Debug\MayoraComponent.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\MayoraComponent\obj\Debug\MayoraComponent.pdb

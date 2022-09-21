@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>MicrosoftReportViewerWebForms</id>
+    <version>11.0.0.0</version>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>includes Common,WebForms,ProcessingObjectModel
+
+Pre-requisites:
+
+Microsoft SQL Server 2008 Reporting Services or higher for server processing mode.
+
+NET Framework 3.5 SP1 or .NET Framework 4.0.
+
+1. Check C:\Windows\Microsoft.NET\Framework64
+              1.NET Framework 3.5 is there if we see a folder named v3.5. Further, use the registry to see whether SP1 for v3.5 is there - http://support.microsoft.com/kb/318785 -
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v3.5 needs to have DWORD named Install with value 1
+
+If SP1 is not installed, it can be installed from http://www.microsoft.com/en-us/download/details.aspx?id=22
+            1. NET Framework 4.0 is there if we see a folder named v4.0
+
+1. Microsoft SQL Server System CLR Types package
+              1. It is available in the Install Instructions section of Microsoft® SQL Server® 2012 Feature Pack on http://www.microsoft.com/en-us/download/details.aspx?id=29065 -
+
+Microsoft® System CLR Types for Microsoft® SQL Server® 2012 The SQL Server System CLR Types package contains the components implementing the geometry, geography, and hierarchy id types in SQL Server 2012. This component can be installed separately from the server to allow client applications to use these types outside of the server. Note: This component also requires Windows Installer 4.5 X86 Package (SQLSysClrTypes.msi) 
+X64 Package (SQLSysClrTypes.msi)
+
+Microsoft SQL Server System CLR Types package.
+Ensure this order of setup
+
+1. Ensure we have the required .NET Framework version per step 1a.
+2. Run the SQL Server System CLR Types setup from step 1b.
+3. Run the Report Viewer 2010 runtime setup</description>
+    <copyright>Microsoft</copyright>
+  </metadata>
+</package>

@@ -1,0 +1,27 @@
+﻿@using Core.Web.Helpers
+@using MyWeb.ViewModels.Applications
+@model dynamic
+@{
+    Layout = null;
+}
+<div ng-controller="ApplicationController as vm">
+    @(Html.Angular()
+    .GridFor("vm.applicationGetPage")
+    .Title("Application List")
+    .Message("vm.message")
+    .TableActions("vm.tableActions")
+    .RefreshData("vm.refreshData")
+    .AddData("vm.add")
+    .Columns<ApplicationViewModel>(config =>
+    {
+        config.Add(x => x, "Action", null, "<div><a href='' ng-click='grid.appScope.tableActions.onEdit(row.entity)'><i class='fa fa-edit fa-lg'></i></a></div>");
+        config.Add(x => x.ApplicationName);
+        config.Add(x => x.ApplicationDescription);
+        config.Add(x => x.ApplicationLink);
+        config.Add(x => x.ApplicationIcon);
+        config.Add(x => x.CreateBy, "Create By");
+        config.Add(x => x.CreateDate, "Create Date", "dateFormat");
+        config.Add(x => x.UpdateBy, "Update By");
+        config.Add(x => x.UpdateDate, "Update Date", "dateFormat");
+    }))
+</div>

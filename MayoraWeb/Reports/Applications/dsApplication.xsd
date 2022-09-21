@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsApplication" targetNamespace="http://tempuri.org/dsApplication.xsd" xmlns:mstns="http://tempuri.org/dsApplication.xsd" xmlns="http://tempuri.org/dsApplication.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsApplication" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsApplication" msprop:Generator_UserDSName="dsApplication">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTableApplication" msprop:Generator_TableClassName="DataTableApplicationDataTable" msprop:Generator_TableVarName="tableDataTableApplication" msprop:Generator_TablePropName="DataTableApplication" msprop:Generator_RowDeletingName="DataTableApplicationRowDeleting" msprop:Generator_RowChangingName="DataTableApplicationRowChanging" msprop:Generator_RowEvHandlerName="DataTableApplicationRowChangeEventHandler" msprop:Generator_RowDeletedName="DataTableApplicationRowDeleted" msprop:Generator_UserTableName="DataTableApplication" msprop:Generator_RowChangedName="DataTableApplicationRowChanged" msprop:Generator_RowEvArgName="DataTableApplicationRowChangeEvent" msprop:Generator_RowClassName="DataTableApplicationRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ApplicationName" msprop:Generator_ColumnVarNameInTable="columnApplicationName" msprop:Generator_ColumnPropNameInRow="ApplicationName" msprop:Generator_ColumnPropNameInTable="ApplicationNameColumn" msprop:Generator_UserColumnName="ApplicationName" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

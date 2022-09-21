@@ -1,0 +1,23 @@
+﻿@*<div class="form-group">
+    <label for="{{title}}" class="control-label col-sm-2">{{title}}</label>
+    <div class="form-group input-group col-sm-10">
+        <input type="text" ng-model="viewValue" class="form-control" readonly="readonly" />
+        <span class="input-group-btn">
+            <button class="btn btn-default" type="button" ng-click="show()">
+                <i class="fa fa-search"></i>
+            </button>
+        </span>
+    </div>
+</div>*@
+
+@*http://stackoverflow.com/questions/16875392/add-twitter-bootstrap-icon-to-input-box
+http://stackoverflow.com/questions/18838964/add-bootstrap-glyphicon-to-input-box/18839305#18839305*@
+
+@*<div>*@
+    @*<label for="{{title}}" class="control-label col-sm-2">{{title}}</label>*@
+    @*<div class="inner-addon right-addon col-sm-10">*@
+    <div class="inner-addon right-addon">
+        <i class="glyphicon glyphicon-search"></i>
+        <input type="text" ng-click="show()" ng-model="viewValue" ng-disabled="ngDisabled" class="form-control" readonly="readonly" />
+    </div>
+@*</div>*@   

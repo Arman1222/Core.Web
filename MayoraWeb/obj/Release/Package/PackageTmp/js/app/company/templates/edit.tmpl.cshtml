@@ -1,0 +1,37 @@
+﻿@using Core.Web.Helpers
+@model MyWeb.ViewModels.Applications.CompanyViewModel
+@{
+    var company = Html.Angular().ModelFor("vm.company");
+}
+<form novalidate
+      name="vm.form"
+      ng-submit="vm.form.$valid && vm.save()">
+    <fieldset ng-disabled="vm.saving">
+
+        <div class="modal-header">
+            <h3 class="modal-title">{{vm.title}}</h3>
+        </div>
+
+        <div class="modal-body">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    @Html.Angular().AlertGlobal("vm.message")
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    @company.FormGroupFor(x => x.CompanyName)
+                </div>
+            </div>
+
+        </div>
+
+        <div class="modal-footer">
+            <button class="btn btn-success">Save</button>
+            <button type="button" class="btn btn-warning" ng-click="$parent.$dismiss()">Cancel</button>
+        </div>
+
+    </fieldset>
+</form>

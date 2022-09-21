@@ -1,0 +1,28 @@
+﻿@using Core.Web.Helpers
+@using MyWeb.ViewModels.Menus
+
+@{
+    Layout = null;
+}
+
+<div class="row">
+        <div class="col-md-12">
+            <div ng-controller="noteandtaskController as vm">
+                @(Html.Angular()
+                            .GridFor("vm.allmytask")
+                            .Title("My Task")
+                            .Message("vm.message")
+                            .RefreshData("vm.refreshTask")
+                            .TableActions("vm.tableActionTasks")
+                            .AddData("vm.addtask")
+                            .Columns<Core.Web.Models.Applications.MyTask>(config =>
+                            {
+                                config.Add(x => x, "Action", null, "<div><a href='' ng-click='grid.appScope.tableActions.onEdit(row.entity)'><i class='fa fa-edit fa-lg'></i></a> <a href='' ng-click='grid.appScope.tableActions.onDetail(row.entity)'><i class='fa fa-eye fa-lg'></i></a> <a href='' ng-click='grid.appScope.tableActions.onDelete(row.entity)'><i class='fa fa-trash fa-lg'></i></a></div>");
+                                config.Add(x => x.Title);
+                                config.Add(x => x, "Progress", null, width: 200, cellTemplate: "<div class=\"progress\"><div class=\"progress-bar progress-bar-info\" role=\"progressbar\" aria-valuenow=\"100\" aria-valuemin=\"0\" aria-valuemax=\"100\" ng-style=\"{ width: ( row.entity.progres ) + '%' }\" ng-bind=\"row.entity.progres + '%'\"></div></div>");
+                                config.Add(x => x.startdate, "Start Date", "dateFormat");
+                                config.Add(x => x.enddate, "End Date", "dateFormat");
+                            }))
+            </div>
+        </div>
+</div>

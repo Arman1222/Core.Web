@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SQL_USERModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="MyNote">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Guid" Nullable="false" />
+    <Property Name="id_user" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="Title" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="posted_date" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="MyTask">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Guid" Nullable="false" />
+    <Property Name="id_user" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="Title" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="fixdate" Type="Boolean" />
+    <Property Name="startdate" Type="DateTime" Precision="0" />
+    <Property Name="enddate" Type="DateTime" Precision="0" />
+    <Property Name="posted_by" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="posted_date" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="note" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="progres" Type="Int32" />
+    <Property Name="alert_me" Type="Boolean" />
+    <NavigationProperty Name="MyTask1" Relationship="Self.FK_MyTask_MyTask" FromRole="MyTask" ToRole="MyTask1" />
+    <NavigationProperty Name="MyTask2" Relationship="Self.FK_MyTask_MyTask" FromRole="MyTask1" ToRole="MyTask" />
+  </EntityType>
+  <Association Name="FK_MyTask_MyTask">
+    <End Role="MyTask" Type="Self.MyTask" Multiplicity="1" />
+    <End Role="MyTask1" Type="Self.MyTask" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="MyTask">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="MyTask1">
+        <PropertyRef Name="id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="MyNote" EntityType="Self.MyNote" />
+    <EntitySet Name="MyTask" EntityType="Self.MyTask" />
+    <AssociationSet Name="FK_MyTask_MyTask" Association="Self.FK_MyTask_MyTask">
+      <End Role="MyTask" EntitySet="MyTask" />
+      <End Role="MyTask1" EntitySet="MyTask" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

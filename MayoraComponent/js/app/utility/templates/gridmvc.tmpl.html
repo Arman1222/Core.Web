@@ -1,0 +1,56 @@
+﻿<div class="box box-info">
+    <div class="box-header with-border">
+        <span class="fa fa-table"><i></i></span>
+        <h3 class="box-title" ng-show="vm.title">{{vm.title}}</h3>
+        <div class="box-tools pull-right">
+            <button type="button" class="btn btn-box-tool" data-widget="collapse">
+                <i class="fa fa-minus"></i>
+            </button>
+            <button type="button" class="btn btn-box-tool" data-widget="remove">
+                <i class="fa fa-times"></i>
+            </button>
+        </div>
+    </div>
+    <div class="box-body">
+        <style>
+            .grid-add-button {color:#00c0ef;}
+            .grid-add-button:hover {color:#0693b5;}
+        </style>
+        <label for="searchText" class="col-sm-8 control-label" style="font-size:xx-large;"> 
+            <span class="input-group-btn" ng-show="showaddfunc()">
+                <button type="button" ng-click="addData()" class="btn btn-info btn-flat">
+                    <i class="fa fa-plus"></i>
+                </button>
+            </span>
+        </label>
+        <div class="input-group col-lg-4">
+            <input ng-hide="hideSearch" type="text"
+                   name="searchText"
+                   ng-model="vm.filterOptions.filterText"
+                   ng-disabled="ngDisabled"
+                   my-enter="refreshData()"
+                   class="form-control pull-right"
+                   placeholder="Search..." />
+            <span class="input-group-btn">
+                <button ng-hide="hideSearch" type="button" ng-click="refreshData()" class="btn btn-default btn-flat"><i class="fa fa-search"></i></button>
+                <button type="button" ng-click="refreshData()" class="{{ hideSearch ? 'btn btn-info btn-flat pull-right' : 'btn btn-info btn-flat'}}"><i class="fa fa-refresh"></i></button>
+            </span>
+        </div>
+        <br />
+        <div>
+            <div external-scopes="vm.externalScopes" ui-grid="vm.gridOptions" ng-disabled="ngDisabled" ng-style="{ height: ( vm.gridOptions.data.length * 30 ) + ( vm.gridOptions.enableFiltering ? 115 : 80) + 'px' }" ui-grid-pagination ui-grid-edit ui-grid-auto-resize ui-grid-selection ui-grid-resize-columns ui-grid-exporter loading="vm.loading">
+                <div class="grid-msg-overlay" ng-hide="!vm.loading">
+                    <div class="msg">
+                        <span>Loading Data...<i class="fa fa-spinner fa-spin"></i></span>
+                    </div>
+                </div>
+                <div class="grid-msg-overlay" ng-hide="vm.loading || vm.gridOptions.data.length  || vm.gridOptions.enableFiltering">
+                    <div class="msg">
+                        <span>No Data</span>
+                    </div>
+                </div>
+            </div>
+            <hr />
+        </div>
+    </div>
+</div>

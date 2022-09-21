@@ -1,0 +1,98 @@
+﻿@using Core.Web.Helpers
+@using MyWeb.ViewModels.Applications
+@model IEnumerable<ApplicationUserViewModel>
+@{
+    Layout = null;
+}
+<div ng-controller="ApplicationUsersController as vm" class="form-horizontal">
+    <div class="col-lg-7">
+        @(Html.Angular()
+        .GridFor("vm.applicationusersGetPage")
+        .Title("User List")
+        .Message("vm.message")
+        .TableActions("vm.tableActions")
+        .RefreshData("vm.refreshData")
+            .Columns<ApplicationUserViewModel>(config =>
+        {
+            config.Add(x => x, "Action", null, "<div align='center'><a href='#' data-toggle='tooltip' title='Edit' ng-click='grid.appScope.tableActions.onEdit(row.entity)'><i class='fa fa-edit fa-lg'></i> {{row.entity}}</a></div>");
+            config.Add(x => x.UserName);
+            config.Add(x => x.NIK);
+            config.Add(x => x.FullName, "Name");
+        }))
+    </div>
+    <div>
+        <div class="col-md-5" ng-if="vm.selectedUser">
+            <div class="box box-success">
+                <div class="box-header with-border">
+                    <i class="ion ion-clipboard"></i>
+                    <h3 class="box-title">Menu - {{vm.selectedUser.fullName}}</h3>
+                    <div class="box-tools pull-right">
+                        <button type="button" class="btn btn-box-tool" data-widget="collapse">
+                            <i class="fa fa-minus"></i>
+                        </button>
+                        <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                    </div>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                    <div class="callout callout-info">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <h4>{{vm.selectedUser.nik}} - {{vm.selectedUser.fullName}} </h4>
+                                <p>Username : {{vm.selectedUser.userName }} </p>
+                                <p>Exp Date : {{vm.selectedUser.expireDate | dateFormat}} </p>
+                                <p>Last Login : {{vm.selectedUser.lastLogin | dateFormat}} </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="box-header with-border">
+                            <i class="ion ion-clipboard"></i>
+                            <h3 class="box-title">List Role</h3>
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse">
+                                    <i class="fa fa-minus"></i>
+                                </button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                            </div>
+                        </div>
+                        <!-- /.box-header -->
+                        <div class="box-body">
+                            <!-- TO DO List -->
+                            <div class="box box-primary">
+                                <!-- /.box-header -->
+                                <div class="box-body">
+                                    <div class="input-group">
+                                        <input type="text" ng-model="vm.searchRole" class="form-control">
+                                        <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                                    </div>
+                                    <ul class="todo-list">
+                                        <li ng-repeat="item in vm.listRole | filter:vm.searchRole | orderBy:'name'">
+                                            <span><input type="checkbox" ng-change="vm.changeUseRole(item)" ng-model="item.used" name="name" value=" " /></span>
+                                                <!-- todo text -->
+                                            <span class="text">{{item.name}}</span>
+                                            <!-- General tools such as edit or delete-->
+                                            <div class="tools">
+                                                <i ng-click="vm.hapusRole(item)" class="fa fa-trash-o"></i>
+                                                <i ng-click="vm.pilihRole(item)" class=" fa fa-hand-o-right"></i>
+                                            </div>
+                                            
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- /.box -->
+                        </div>
+                        <!-- ./box-body -->
+                    </div>
+                    <!-- /.box -->
+                </div>
+                <!-- ./box-body -->
+            </div>
+
+            <div class="col-lg-4">
+              
+            </div>
+        </div>
+    </div>
+</div>

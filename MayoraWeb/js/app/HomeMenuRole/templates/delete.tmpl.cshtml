@@ -1,0 +1,41 @@
+﻿@using Core.Web.Helpers
+@model MyWeb.ViewModels.Menus.HomeMenuRoleViewModel
+@{
+    var detailModel = Html.Angular().ModelFor("vm.homemenurole");
+}
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3>Delete Dashboard Role.?</h3>
+    </div>
+    <table class="table">
+        <tr>
+            <th>Applcation : </th>
+            <td>
+                @detailModel.BindingFor(x => x.Application)
+            </td>
+        </tr>
+        <tr>
+            <th>Role : </th>
+            <td>
+                @detailModel.BindingFor(x => x.RoleName)
+            </td>
+        </tr>
+        <tr>
+            <th>Folder View : </th>
+            <td>
+                @detailModel.BindingFor(x => x.FolderView)
+            </td>
+        </tr>
+        <tr>
+            <th>Cshtml Name : </th>
+            <td>
+                @detailModel.BindingFor(x => x.NameCshtml)
+            </td>
+        </tr>
+    </table>
+    <div class="modal-footer">
+        <button class="btn btn-danger" ng-click="vm.deleteData()">Delete</button>
+        <button type="button" class="btn btn-warning" ng-click="$parent.$dismiss()">Cancel</button>
+    </div>
+
+</div>

@@ -1,0 +1,69 @@
+﻿@using Core.Web.Helpers
+@using MyWeb.ViewModels.euser
+@model MyWeb.ViewModels.euser.moduleModel
+@{
+    var customer = Html.Angular().ModelFor("vm.usermodule");
+}
+<div class="panel panel-default">
+    <div class="modal-header">
+        <h3 class="modal-title">
+            Module Allowed
+        </h3>
+    </div>
+    <div class="modal-body">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-lg-12">
+                        @Html.Angular().AlertGlobal("vm.message")
+                    </div>
+                </div>
+                <div class="row">
+                    <label class="col-lg-1">Module</label>
+                    <div class="col-lg-4">
+                        @(Html.Angular().PicklistFor("vm.selected_module")
+                            .Id("module")
+                            .Name("module")
+                            .ListService("vm.moduleGetPage")
+                            .OnSelect("vm.onSelect_module()")
+                            .Message("vm.message")
+                            .SetLabelSize("col-lg-0").SetInputSize("col-lg-12"))
+                    </div>
+                    <label class="col-lg-1">As</label>
+                    <div class="col-lg-4">
+                        @(Html.Angular().PicklistFor("vm.selected_class")
+                            .Id("classificationId")
+                            .Name("classificationDesc")
+                            .ListService("vm.classGetPage")
+                            .OnSelect("vm.onSelect_class()")
+                            .HideColumns("classificationId")
+                            .Message("vm.message")
+                            .SetLabelSize("col-lg-0").SetInputSize("col-lg-12"))
+                    </div>
+                    <div class="col-lg-1"><h2 class="modal-title"><a class="pull-right" href="" ng-click="vm.save()"><i class="fa fa-plus-circle" data-toggle="tooltip" title="Insert Module"></i></a></h2></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                @(Html.Angular()
+                .GridFor("vm.usermodulGetPage")
+                .HideSearch()
+                .SearchParams("vm.searchParams")
+                .Message("vm.message")
+                .TableActions("vm.tableActions")
+                .RefreshData("vm.refreshData")
+                .Columns<sp_usermodulModel>(config =>
+                {
+                    config.Add(x => x, "Delete", null, "<div>&nbsp;&nbsp;&nbsp;&nbsp;<a href='' ng-click='grid.appScope.tableActions.onHapus(row.entity)'><i class='fa fa-trash fa-lg' data-toggle='tooltip' title='Delete Module'></i></a></div>", width: 55);
+                    config.Add(x => x.UserName, width: 350);
+                    config.Add(x => x.Module, width: 350);
+                    config.Add(x => x.ClassificationDesc, width: 350);
+                }))
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-warning" ng-click="$parent.$dismiss()">EXIT</button>
+    </div>
+</div>

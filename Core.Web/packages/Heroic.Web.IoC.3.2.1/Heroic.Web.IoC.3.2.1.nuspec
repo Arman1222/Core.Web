@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Heroic.Web.IoC</id>
+    <version>3.2.1</version>
+    <title>Heroic.Web.IoC</title>
+    <authors>Heroic Applications - http://heroicapplications.com</authors>
+    <owners>Heroic Applications - http://heroicapplications.com</owners>
+    <licenseUrl>https://github.com/MattHoneycutt/HeroicFramework/blob/master/Heroic.Web.IoC/license.txt</licenseUrl>
+    <projectUrl>https://github.com/MattHoneycutt/HeroicFramework/tree/master/Heroic.Web.IoC</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Container-per-request and other IoC goodness for ASP.NET MVC 5.1 using StructureMap.</description>
+    <summary />
+    <releaseNotes />
+    <copyright>Copyright 2014</copyright>
+    <tags>AspNet Mvc AspNetMvc StructureMap IoC</tags>
+    <dependencies>
+      <dependency id="Microsoft.AspNet.Mvc" version="5.2.0" />
+      <dependency id="Microsoft.AspNet.Web.Optimization" version="1.1.3" />
+      <dependency id="Microsoft.AspNet.WebApi" version="5.2.0" />
+      <dependency id="structuremap" version="3.0.3.116" />
+      <dependency id="WebActivatorEx" version="2.0.5" />
+    </dependencies>
+  </metadata>
+</package>

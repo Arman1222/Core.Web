@@ -1,0 +1,21 @@
+﻿Implementation of Single Sign On (SSO) in ASP.NET MVC
+http://arunendapally.com/post/implementation-of-single-sign-on-(sso)-in-asp.net-mvc
+
+http://www.alexboyang.com/2014/05/28/sso-for-asp-net-mvc4-and-mvc5-web-apps-shared-the-same-domain/
+SSO for ASP.NET MVC4 and MVC5 web apps shared the same domain
+
+https://www.simple-talk.com/dotnet/asp.net/handmade-claims-based-authentication-for-old-fashioned-asp.net-sites/
+http://www.danharman.net/2011/07/07/storing-custom-data-in-forms-authentication-tickets/
+http://martinwilley.com/blog/2014/03/07/FormsAuthenticationWithClaims.aspx
+http://dotnetcodr.com/2013/02/28/claims-based-authentication-in-mvc4-with-net4-5-c-part-2-storing-authentication-data-in-an-authentication-session/
+http://magnusmartensson.com/mvc-application-using-owin-to-achieve-federated-authentication
+
+Error:
+HTTP Error 403.14 - Forbidden
+The Web server is configured to not list the contents of this directory.
+http://forums.asp.net/t/1897460.aspx
+http://www.codefrenzy.net/2011/10/19/deploying-asp-net-mvc-3-to-iis-6/
+
+<system.webServer>
+    <modules runAllManagedModulesForAllRequests="true"/>
+</system.webServer>

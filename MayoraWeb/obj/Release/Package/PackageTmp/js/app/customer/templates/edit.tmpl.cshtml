@@ -1,0 +1,52 @@
+﻿@using Core.Web.Helpers
+@model MyWeb.ViewModels.Customers.CustomerViewModel
+@{
+    var customer = Html.Angular().ModelFor("vm.customer");
+}
+<form novalidate
+      name="vm.form"
+      ng-submit="vm.form.$valid && vm.save()">
+    <fieldset ng-disabled="vm.saving">
+
+        <div class="modal-header">
+            <h3 class="modal-title">{{vm.title}}</h3>
+        </div>
+
+        <div class="modal-body">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    @Html.Angular().AlertGlobal("vm.message")
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6">
+                    @customer.FormGroupFor(x => x.CustomerType).OnChange("vm.onChangeCustomerType()").OnBlur("vm.onBlurCustomerType()")
+
+                    @customer.FormGroupFor(x => x.Name).OnChange("vm.onChangeName()").OnBlur("vm.onBlurName()")
+
+                    @customer.FormGroupFor(x => x.Address).OnChange("vm.onChangeAddress()").OnBlur("vm.onBlurAddress()")
+                </div>
+                <div class="col-lg-6">
+                    @customer.FormGroupFor(x => x.Email).OnChange("vm.onChangeEmail()").OnBlur("vm.onBlurEmail()")
+
+                    @customer.FormGroupFor(x => x.Phone).OnChange("vm.onChangePhone()").OnBlur("vm.onBlurPhone()")
+
+                    @customer.FormGroupFor(x => x.TerminationDate).OnChange("vm.onChangeTerminationDate()").OnBlur("vm.onBlurTerminationDate()")
+
+                    @customer.FormGroupFor(x => x.StartTime).OnChange("vm.onChangeStartTime()").OnBlur("vm.onBlurStartTime()")
+
+                    <my-picklist title="Customer" model="vm.selectedImageclass" picklist="vm.imageclassPicklist" id-column="imageClassId" name-column="imageClassName" on-select="vm.onSelectImageClass()"></my-picklist>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="modal-footer">
+            <button class="btn btn-success">Add</button>
+            <button type="button" class="btn btn-warning" ng-click="$parent.$dismiss()">Cancel</button>
+        </div>
+
+    </fieldset>
+</form>

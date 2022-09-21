@@ -1,0 +1,30 @@
+﻿@using Core.Web.Helpers
+@using MyWeb.ViewModels.office_master
+@model dynamic
+@{
+    Layout = null;
+}
+<div ng-controller="master_office_Controller as vm">
+        @(Html.Angular()
+                .GridFor("vm.master_office_GetPage")
+                    .Title("Master Office List")
+                    .Message("vm.message")
+                    .TableActions("vm.tableActions")
+                    .RefreshData("vm.refreshData")
+                    .AddData("vm.add")
+        .Columns<sp_office_master_Model>(config =>
+        {
+            config.Add(x => x, "Action", null, "<div><a href='' ng-click='grid.appScope.tableActions.onEdit(row.entity)'><i class='fa fa-edit fa-lg'></i></a></div>");
+            config.Add(x => x.OfficeId, "Office Id");
+            config.Add(x => x.OfficeDesc, "Office Desc");
+            config.Add(x => x.OfficeT24_KD_Cabang, "Branch Code T24");
+            config.Add(x => x.OfficeT24_Nama_Cabang, "Branch Name T24");
+            config.Add(x => x.AreaId, "Area Id");
+            config.Add(x => x.AreaName, "Area Name");
+            config.Add(x => x.Id);
+            config.Add(x => x.CreateBy, "Create By");
+            config.Add(x => x.CreateDate, "Create Date", "date : 'EEE, dd-MMM-yyyy HH:mm:ss'", width: 200);
+            config.Add(x => x.UpdateBy, "Update By");
+            config.Add(x => x.UpdateDate, "Update Date", "date : 'EEE, dd-MMM-yyyy HH:mm:ss'", width: 200);
+        }))
+</div>

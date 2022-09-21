@@ -1,0 +1,225 @@
+﻿[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+html, body, #wrapper{
+	height: 100%;
+}
+
+body {
+	margin-top: 0;
+}
+
+/*#page-wrapper {
+	padding-top: 50px;
+	min-height: 100%;
+}*/
+
+/*.navbar.navbar-fixed-top {
+	background-color: #222222;
+}*/
+
+.btn.btn-green {
+	color: white;
+	background-color: #5cb85c;
+}
+
+.btn.btn-green:hover {
+	color: white;
+	background-color: #3d8b3d;
+}
+
+.btn.btn-red {
+	color: white;
+	background-color: #d9534f;
+}
+
+.btn.btn-red:hover {
+	color: white;
+	background-color: #b52b27;
+}
+
+.col-md-1.half {
+	width: 4.5%;
+}
+
+textarea {
+	min-height: 90px;
+}
+
+/* Customer List */
+/*.customer-list .panel-heading {
+	font-size: 1.4em;
+}
+
+.customer-list .panel-heading .btn {
+	margin-top: -5px;
+}
+
+.customer-list th {
+	width: 100px;
+}
+
+.customer-list table {
+	font-size: 1em;
+}
+
+.customer-list .panel > .table + .panel-body {
+	border-top: none;
+}
+
+.opportunity-list h3, .risk-list h3 {
+	margin-top: 0;
+}
+
+.opportunity-list .add-btn,
+.risk-list .add-btn {
+	display: inline-block;
+	font-size: 0.9em;
+	margin-top: 1.5em;
+}*/
+
+.ng-hide-remove {
+  -webkit-transition:0.3s linear opacity;
+  transition:0.3s linear opacity;
+  opacity:1;
+}
+
+.ng-hide {
+  opacity:0;
+}
+
+.modal-backdrop {
+	position: fixed;
+}
+
+.btn-circle {
+	border-radius: 50%;
+}
+
+.has-feedback ng-transclude ~ input-validation-icons .form-control-feedback {
+	/*top: 26px;*/
+    top: 5px;
+}
+
+/*MODAL SIZE*/
+.app-modal-window .modal-dialog {
+  width: 800px;
+}
+
+.form-modal-window-1200 .modal-dialog {
+  width: 1200px;
+  height:1000px;
+}
+
+.form-modal-window-1000 .modal-dialog {
+  width: 1000px;
+  height: 800px;
+}
+
+.form-modal-window-800 .modal-dialog {
+  width: 800px;
+  height: 600px;
+}
+
+.form-modal-window-600 .modal-dialog {
+  width: 600px;
+  height: 400px;
+}
+/* http://stackoverflow.com/questions/17845864/twitter-bootstrap-vertically-align-input-with-label-inside-control-group
+http://stackoverflow.com/questions/14266175/how-do-i-left-align-these-bootstrap-form-items */
+.control-label{
+  /* text-align:right; */
+  text-align:left;
+  vertical-align:middle;
+  /*background-color:#ffa;*/
+}
+/* http://stackoverflow.com/questions/14690621/arrange-multiple-checkboxes-like-a-grid-without-tables */
+.checkbox-grid li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+/*
+   CSS UI-GRID
+   This is the background of our overlay. We need it to be
+   absolutely positioned within the grid, and fill from
+   top to bottom, and the full width. It will also have
+   a black background with 40% opacity.
+*/
+.grid-msg-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+ 
+/*
+  This guy will contain our message. We want it centered
+  so it's positioned absolutely with percentage-based
+  offsets and dimensions. It also has some basic border
+  stuff and most important is using "display: table" so
+  we can vertically center its contents.
+*/
+.grid-msg-overlay .msg {
+  opacity: 1;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  width: 60%;
+  height: 50%;
+  background-color: #eee;
+  border-radius: 4px;
+  border: 1px solid #555;
+  text-align: center;
+  font-size: 24px;
+  display: table;
+}
+ 
+/*
+  Lastly this is the actual message text. It uses
+  display: table-cell so the vertical alignment
+  works properly.
+*/
+.grid-msg-overlay .msg span {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/*ng-file-upload progress*/
+.progress {
+    /*display: inline-block;*/
+    width: 100px;
+    /*border: 3px groove #CCC;*/
+}
+.progress div {
+    font-size: smaller;
+    background: orange;
+    width: 0;
+}
+
+/*add-bootstrap-glyphicon-to-input-box*/
+/*stackoverflow.com/questions/18838964/add-bootstrap-glyphicon-to-input-box/18839305#18839305*/
+/* enable absolute positioning */
+.inner-addon {
+  position: relative;
+}
+
+/* style glyph */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align glyph */
+.left-addon .glyphicon  { left:  20px;}
+.right-addon .glyphicon { right: 3px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+/*add-bootstrap-glyphicon-to-input-box*/

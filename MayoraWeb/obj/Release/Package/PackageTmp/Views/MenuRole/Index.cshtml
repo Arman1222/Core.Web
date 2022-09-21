@@ -1,0 +1,80 @@
+﻿@{
+    Layout = null;
+}
+@using Core.Web.Helpers
+@model MyWeb.ViewModels.Menus.MenuRoleViewModel
+
+<div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header">Menu Role</h1>
+    </div>
+    <!-- /.col-lg-12 -->
+</div>
+
+<div ng-controller="MenuRoleController as vm">
+    <div class="row">
+        <div class="col-lg-12">
+            @Html.Angular().AlertGlobal("vm.message")
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    Add Menu Role
+                </div>
+                <div class="panel-body">
+                    <p>
+                        <a href="" ng-click="vm.add()" class="btn btn-success btn-xs">Create New</a>
+                    </p>
+
+                    @(Html.Angular().PicklistFor("vm.selectedApplication")
+                            .Title("Application")
+                                    .Id("applicationId")
+                                    .Name("applicationName")
+                            //.Picklist("vm.imageclassPicklist")
+                            .ListService("vm.getPageApplication")                            
+                            .OnSelect("vm.onSelectApplication()")
+                            .Message("vm.message")
+                    )
+
+                    @(Html.Angular().PicklistFor("vm.selectedRole")
+                            .Title("Role")
+                            .Id("id")
+                            .Name("name")
+                            //.Picklist("vm.imageclassPicklist")
+                            .ListService("vm.getPageRole")
+                            .SelectedId(@ViewBag.selectedRoleId)
+                            .OnSelect("vm.onSelectRole()")                            
+                            .Message("vm.message")
+                    )
+                    @*<my-picklist title="Role" model="vm.selectedRole" selected-id="@ViewBag.selectedRoleId" picklist="vm.rolePicklist" id-column="id" name-column="name" on-select="vm.onSelectRole()"></my-picklist>*@
+
+                    @(Html.Angular().PicklistFor("vm.selectedMenu")
+                            .Title("Menu")
+                            .Id("id")
+                            .Name("name")
+                            //.Picklist("vm.imageclassPicklist")
+                            .ListService("vm.getPageMenu")                            
+                            .OnSelect("vm.onSelectMenu()")
+                            .Message("vm.message")
+                            .SortBy("id")
+                    )
+                    @*<my-picklist title="Menu" model="vm.selectedMenu" picklist="vm.menuPicklist" id-column="id" name-column="name" on-select="vm.onSelectMenu()"></my-picklist>*@
+
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="panel panel-green">
+                <div class="panel-heading">
+                    Menu Tree
+                </div>
+                <div class="panel-body" ng-bind-html="vm.menutree | unsafe">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,65 @@
+﻿@using Core.Web.Utilities
+<!DOCTYPE html>
+<html ng-app="MyWeb">
+<head>
+    @{
+        string urlContentAdminLTE = @"http://10.10.2.20/MayoraComponent/";
+    }
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@(ViewBag.Title == null ? "" : ViewBag.Title + " - ")Bank Mayora Application</title>
+    <link rel="icon" href="@(urlContentAdminLTE + "favicon.ico")" />
+    @Html.Partial("_PartialImportHeader", new ViewDataDictionary { { "path", urlContentAdminLTE } })
+    @Styles.Render("~/Content/css")
+    @*@Scripts.Render("~/bundles/modernizr")*@
+</head>
+@{
+    var bodystyle = (Request.IsAuthenticated && ViewBag.SignOut != true) ? "hold-transition skin-blue sidebar-mini" : "hold-transition  login-page";
+    var wrapstyle = (Request.IsAuthenticated && ViewBag.SignOut != true) ? "wrapper" : "";
+    var containstyle = (Request.IsAuthenticated && ViewBag.SignOut != true) ? "content-wrapper" : "container body-content";
+}
+<body class="@bodystyle">
+    <div class="@wrapstyle">
+        @if (Request.IsAuthenticated && ViewBag.SignOut != true)
+        {
+            Html.RenderPartial("_PartialMainHeader");
+            Html.RenderPartial("_PartialSidebar");
+            <div class="@containstyle">
+                <section class="content-header" ng-controller="headerController as vm">
+                    <h1>
+                        {{vm.curstate.itemdesc.text}}
+                        <small>{{vm.curstate.itemdesc.description}}</small>
+                    </h1>
+                </section>
+                <!-- Main content -->
+                <section class="content">
+                    @RenderBody()
+                </section>
+            </div>
+        }
+        else
+        {
+            @RenderBody()
+        }
+    </div>
+
+    @Html.Partial("_PartialImportBody", new ViewDataDictionary { { "path", urlContentAdminLTE } });
+    @Scripts.Render("~/js/all.js")
+
+    <script type="text/javascript">
+        window.MyApplication = {};
+        (function (cr) {
+            var rootPath;
+            cr.rootPath = rootPath;
+        }(window.MyApplication));
+        MyApplication.rootPath = '@Request.GetBaseUrl()';
+        MyApplication.componentPath = '@urlContentAdminLTE';
+        //MyApplication.rootPath = '@Url.Content("~")';
+        //alert(MyApplication.rootPath);
+    </script>
+
+    @RenderSection("scripts", required: false)
+
+</body>
+
+</html>

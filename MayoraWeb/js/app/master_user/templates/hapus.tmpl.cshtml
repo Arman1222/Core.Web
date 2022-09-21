@@ -1,0 +1,72 @@
+﻿@using Core.Web.Helpers
+@model MyWeb.ViewModels.euser.sp_usermasterModel
+@{
+    var hapusModel = Html.Angular().ModelFor("vm.masteruser");
+}
+<form novalidate
+      name="vm.form"
+      ng-submit="vm.save()">
+    <fieldset ng-disabled="vm.saving">
+        <div class="modal-header">
+            <h3 class="modal-title">{{vm.title}} Master User ?</h3>
+        </div>
+
+        <div class="modal-body">
+            <table class="table">
+                <tr>
+                    <th>Username</th>
+                    <td>
+                        @hapusModel.BindingFor(x => x.Name)
+                    </td>
+                </tr>
+                <tr>
+                    <th>User Real Name</th>
+                    <td>
+                        @hapusModel.BindingFor(x => x.RealName)
+                    </td>
+                </tr>
+                <tr>
+                    <th>Max Pass Wrong</th>
+                    <td>
+                        @hapusModel.BindingFor(x => x.MaxPassWrong)
+                    </td>
+                </tr>
+                <tr>
+                    <th>Active</th>
+                    <td>
+                        @hapusModel.BindingFor(x => x.ActiveBit)
+                    </td>
+                </tr>
+                <tr>
+                    <th>Office</th>
+                    <td>
+                        @hapusModel.BindingFor(x => x.Office)
+                    </td>
+                </tr>
+                <tr>
+                    <th>Expired Date</th>
+                    <td>
+                        {{vm.masteruser.expiredDate | dateFormat}}
+                    </td>
+                </tr>
+                <tr>
+                    <th>NIK</th>
+                    <td>
+                        @hapusModel.BindingFor(x => x.NIK)
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="modal-footer">
+            <div class="row">
+                <div class="col-lg-12">
+                    @Html.Angular().AlertGlobal("vm.message")
+                </div>
+            </div>
+            <button class="btn btn-success">Delete</button>
+            <button type="button" class="btn btn-warning" ng-click="$parent.$dismiss()">Cancel</button>
+        </div>
+
+    </fieldset>
+</form>

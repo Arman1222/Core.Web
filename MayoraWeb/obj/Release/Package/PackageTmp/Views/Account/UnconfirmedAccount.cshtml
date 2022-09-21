@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Akun Belum Dikonfirmasi";
+}
+
+<h2>@ViewBag.Title</h2>
+<p>Jika anda masih belum menerima email konfirmasi dalam 10 menit sejak mendaftar atau jika anda tidak sengaja menghapus email tersebut, maka klik tombol ini untuk mengirim ulang email konfirmasi</p>
+
+@using (Html.BeginForm("RegenerateEmailConfirmation","Account",FormMethod.Post,new{@class = "form-horizontal",role="form"}))
+{
+    @Html.Hidden("Email",(string)ViewBag.Email)
+    <input type="submit" value="Re-send Email Confirmation" class="btn btn-primary"/> 
+}

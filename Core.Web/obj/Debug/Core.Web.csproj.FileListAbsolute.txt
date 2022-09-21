@@ -1,0 +1,265 @@
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\Core.Web.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\Core.Web.pdb
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\Newtonsoft.Json.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\System.Web.Helpers.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\System.Web.Mvc.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\System.Web.Razor.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\System.Web.WebPages.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\Newtonsoft.Json.xml
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\System.Web.Helpers.xml
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\System.Web.Mvc.xml
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\System.Web.Razor.xml
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\System.Web.WebPages.xml
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Steven\Project\MayoraWeb\Core.Web\obj\Debug\Core.Web.dll
+D:\Steven\Project\MayoraWeb\Core.Web\obj\Debug\Core.Web.pdb
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\HtmlTags.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\Humanizer.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\Humanizer.pdb
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\Humanizer.xml
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\af\Humanizer.resources.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\ar\Humanizer.resources.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\bg\Humanizer.resources.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\bn-BD\Humanizer.resources.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\cs\Humanizer.resources.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\da\Humanizer.resources.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\de\Humanizer.resources.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\el\Humanizer.resources.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\es\Humanizer.resources.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\fa\Humanizer.resources.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\fi-FI\Humanizer.resources.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\fr\Humanizer.resources.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\fr-BE\Humanizer.resources.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\he\Humanizer.resources.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\hu\Humanizer.resources.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\id\Humanizer.resources.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\it\Humanizer.resources.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\ja\Humanizer.resources.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\nb\Humanizer.resources.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\nb-NO\Humanizer.resources.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\nl\Humanizer.resources.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\pl\Humanizer.resources.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\pt\Humanizer.resources.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\ro\Humanizer.resources.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\ru\Humanizer.resources.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\sk\Humanizer.resources.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\sl\Humanizer.resources.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\sr\Humanizer.resources.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\sr-Latn\Humanizer.resources.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\sv\Humanizer.resources.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\tr\Humanizer.resources.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\uk\Humanizer.resources.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\uz-Latn-UZ\Humanizer.resources.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\vi\Humanizer.resources.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\zh-CN\Humanizer.resources.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\zh-Hans\Humanizer.resources.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\zh-Hant\Humanizer.resources.dll
+D:\Steven\Project\MayoraWeb\Core.Web\bin\Debug\Microsoft.Web.Mvc.dll
+D:\Steven\Project\MayoraWeb\Core.Web\obj\Debug\Core.Web.csprojResolveAssemblyReference.cache
+D:\Project\MayoraWeb\Core.Web\bin\Debug\Core.Web.dll
+D:\Project\MayoraWeb\Core.Web\bin\Debug\Core.Web.pdb
+D:\Project\MayoraWeb\Core.Web\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Project\MayoraWeb\Core.Web\bin\Debug\Newtonsoft.Json.dll
+D:\Project\MayoraWeb\Core.Web\bin\Debug\System.Web.Helpers.dll
+D:\Project\MayoraWeb\Core.Web\bin\Debug\System.Web.Mvc.dll
+D:\Project\MayoraWeb\Core.Web\bin\Debug\System.Web.Razor.dll
+D:\Project\MayoraWeb\Core.Web\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Project\MayoraWeb\Core.Web\bin\Debug\System.Web.WebPages.dll
+D:\Project\MayoraWeb\Core.Web\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Project\MayoraWeb\Core.Web\bin\Debug\System.Web.Helpers.xml
+D:\Project\MayoraWeb\Core.Web\bin\Debug\System.Web.Mvc.xml
+D:\Project\MayoraWeb\Core.Web\bin\Debug\System.Web.Razor.xml
+D:\Project\MayoraWeb\Core.Web\bin\Debug\System.Web.WebPages.xml
+D:\Project\MayoraWeb\Core.Web\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Project\MayoraWeb\Core.Web\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Project\MayoraWeb\Core.Web\obj\Debug\Core.Web.dll
+D:\Project\MayoraWeb\Core.Web\obj\Debug\Core.Web.pdb
+D:\Project\MayoraWeb\Core.Web\bin\Debug\Core.Web.dll.config
+D:\Project\MayoraWeb\Core.Web\bin\Debug\StructureMap.dll
+D:\Project\MayoraWeb\Core.Web\bin\Debug\StructureMap.Net4.dll
+D:\Project\MayoraWeb\Core.Web\bin\Debug\StructureMap.pdb
+D:\Project\MayoraWeb\Core.Web\bin\Debug\StructureMap.xml
+D:\Project\MayoraWeb\Core.Web\bin\Debug\StructureMap.Net4.pdb
+D:\Project\MayoraWeb\Core.Web\bin\Debug\License.dll
+D:\Project\MayoraWeb\Core.Web\bin\Debug\Antlr3.Runtime.dll
+D:\Project\MayoraWeb\Core.Web\bin\Debug\AutoMapper.dll
+D:\Project\MayoraWeb\Core.Web\bin\Debug\Heroic.AutoMapper.dll
+D:\Project\MayoraWeb\Core.Web\bin\Debug\Heroic.Web.IoC.dll
+D:\Project\MayoraWeb\Core.Web\bin\Debug\System.Linq.Dynamic.dll
+D:\Project\MayoraWeb\Core.Web\bin\Debug\System.Net.Http.Formatting.dll
+D:\Project\MayoraWeb\Core.Web\bin\Debug\System.Web.Http.dll
+D:\Project\MayoraWeb\Core.Web\bin\Debug\System.Web.Http.WebHost.dll
+D:\Project\MayoraWeb\Core.Web\bin\Debug\System.Web.Optimization.dll
+D:\Project\MayoraWeb\Core.Web\bin\Debug\WebActivatorEx.dll
+D:\Project\MayoraWeb\Core.Web\bin\Debug\WebGrease.dll
+D:\Project\MayoraWeb\Core.Web\bin\Debug\Antlr3.Runtime.pdb
+D:\Project\MayoraWeb\Core.Web\bin\Debug\AutoMapper.xml
+D:\Project\MayoraWeb\Core.Web\bin\Debug\System.Net.Http.Formatting.xml
+D:\Project\MayoraWeb\Core.Web\bin\Debug\System.Web.Http.xml
+D:\Project\MayoraWeb\Core.Web\bin\Debug\System.Web.Http.WebHost.xml
+D:\Project\MayoraWeb\Core.Web\bin\Debug\System.Web.Optimization.xml
+D:\Project\MayoraWeb\Core.Web\bin\Debug\FluentValidationNA.dll
+D:\Project\MayoraWeb\Core.Web\bin\Debug\FluentValidationNA.xml
+D:\Project\MayoraWeb\Core.Web\bin\Debug\System.Linq.Dynamic.xml
+D:\Project\MayoraWeb\Core.Web\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Project\MayoraWeb\Core.Web\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\Project\MayoraWeb\Core.Web\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+D:\Project\MayoraWeb\Core.Web\obj\Debug\Core.Web.csprojResolveAssemblyReference.cache
+D:\Temp\MyWeb\trunk\Core.Web\bin\Debug\Core.Web.dll.config
+D:\Temp\MyWeb\trunk\Core.Web\bin\Debug\Core.Web.dll
+D:\Temp\MyWeb\trunk\Core.Web\bin\Debug\Core.Web.pdb
+D:\Temp\MyWeb\trunk\Core.Web\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Temp\MyWeb\trunk\Core.Web\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\Temp\MyWeb\trunk\Core.Web\bin\Debug\Microsoft.ReportViewer.WebForms.dll
+D:\Temp\MyWeb\trunk\Core.Web\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Temp\MyWeb\trunk\Core.Web\bin\Debug\Newtonsoft.Json.dll
+D:\Temp\MyWeb\trunk\Core.Web\bin\Debug\Microsoft.Web.Infrastructure.xml
+D:\Temp\MyWeb\trunk\Core.Web\obj\Debug\Core.Web.csprojResolveAssemblyReference.cache
+D:\Temp\MyWeb\trunk\Core.Web\obj\Debug\Core.Web.dll
+D:\Temp\MyWeb\trunk\Core.Web\obj\Debug\Core.Web.pdb
+D:\Project\MyWeb\Core.Web\bin\Debug\Core.Web.dll.config
+D:\Project\MyWeb\Core.Web\bin\Debug\Core.Web.dll
+D:\Project\MyWeb\Core.Web\bin\Debug\Core.Web.pdb
+D:\Project\MyWeb\Core.Web\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Project\MyWeb\Core.Web\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\Project\MyWeb\Core.Web\bin\Debug\Microsoft.ReportViewer.WebForms.dll
+D:\Project\MyWeb\Core.Web\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Project\MyWeb\Core.Web\bin\Debug\Newtonsoft.Json.dll
+D:\Project\MyWeb\Core.Web\bin\Debug\Microsoft.Web.Infrastructure.xml
+D:\Project\MyWeb\Core.Web\obj\Debug\Core.Web.csprojResolveAssemblyReference.cache
+D:\Project\MyWeb\Core.Web\obj\Debug\Core.Web.dll
+D:\Project\MyWeb\Core.Web\obj\Debug\Core.Web.pdb
+D:\Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Core.Web.dll.config
+D:\Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Core.Web.dll
+D:\Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Core.Web.pdb
+D:\Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+D:\Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.Owin.dll
+D:\Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+D:\Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+D:\Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.Owin.Security.dll
+D:\Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+D:\Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.ReportViewer.WebForms.dll
+D:\Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Newtonsoft.Json.dll
+D:\Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Owin.dll
+D:\Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\System.Net.Http.Formatting.dll
+D:\Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\System.Web.Cors.dll
+D:\Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\System.Web.Http.dll
+D:\Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\System.Web.Http.WebHost.dll
+D:\Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+D:\Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.Owin.xml
+D:\Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+D:\Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.Owin.Security.xml
+D:\Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+D:\Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+D:\Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.Web.Infrastructure.xml
+D:\Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Newtonsoft.Json.xml
+D:\Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\System.Net.Http.Formatting.xml
+D:\Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\System.Web.Http.xml
+D:\Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\System.Web.Http.WebHost.xml
+D:\Temp\MyWeb - oNE\trunk\Core.Web\obj\Debug\Core.Web.csprojResolveAssemblyReference.cache
+D:\Temp\MyWeb - oNE\trunk\Core.Web\obj\Debug\Core.Web.dll
+D:\Temp\MyWeb - oNE\trunk\Core.Web\obj\Debug\Core.Web.pdb
+D:\One-Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Core.Web.dll.config
+D:\One-Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Core.Web.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Core.Web.pdb
+D:\One-Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.Owin.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.Owin.Security.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Owin.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\System.Net.Http.Formatting.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\System.Web.Cors.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\System.Web.Http.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\System.Web.Http.WebHost.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+D:\One-Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.Owin.xml
+D:\One-Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+D:\One-Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.Owin.Security.xml
+D:\One-Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+D:\One-Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+D:\One-Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.Web.Infrastructure.xml
+D:\One-Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\System.Net.Http.Formatting.xml
+D:\One-Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\System.Web.Http.xml
+D:\One-Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\System.Web.Http.WebHost.xml
+D:\One-Temp\MyWeb - oNE\trunk\Core.Web\obj\Debug\Core.Web.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.Web\obj\Debug\Core.Web.pdb
+D:\One-Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Newtonsoft.Json.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Newtonsoft.Json.xml
+D:\One-Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.ReportViewer.WebForms.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.Web\obj\Debug\Core.Web.csprojResolveAssemblyReference.cache
+D:\Project\MyWeb - oNE\trunk\Core.Web\bin\Debug\Core.Web.dll.config
+D:\Project\MyWeb - oNE\trunk\Core.Web\bin\Debug\Core.Web.dll
+D:\Project\MyWeb - oNE\trunk\Core.Web\bin\Debug\Core.Web.pdb
+D:\Project\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+D:\Project\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.Owin.dll
+D:\Project\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+D:\Project\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+D:\Project\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.Owin.Security.dll
+D:\Project\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+D:\Project\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Project\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\Project\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.ReportViewer.WebForms.dll
+D:\Project\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Project\MyWeb - oNE\trunk\Core.Web\bin\Debug\Newtonsoft.Json.dll
+D:\Project\MyWeb - oNE\trunk\Core.Web\bin\Debug\Owin.dll
+D:\Project\MyWeb - oNE\trunk\Core.Web\bin\Debug\System.Net.Http.Formatting.dll
+D:\Project\MyWeb - oNE\trunk\Core.Web\bin\Debug\System.Web.Cors.dll
+D:\Project\MyWeb - oNE\trunk\Core.Web\bin\Debug\System.Web.Http.dll
+D:\Project\MyWeb - oNE\trunk\Core.Web\bin\Debug\System.Web.Http.WebHost.dll
+D:\Project\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+D:\Project\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.Owin.xml
+D:\Project\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+D:\Project\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.Owin.Security.xml
+D:\Project\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+D:\Project\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+D:\Project\MyWeb - oNE\trunk\Core.Web\bin\Debug\Microsoft.Web.Infrastructure.xml
+D:\Project\MyWeb - oNE\trunk\Core.Web\bin\Debug\Newtonsoft.Json.xml
+D:\Project\MyWeb - oNE\trunk\Core.Web\bin\Debug\System.Net.Http.Formatting.xml
+D:\Project\MyWeb - oNE\trunk\Core.Web\bin\Debug\System.Web.Http.xml
+D:\Project\MyWeb - oNE\trunk\Core.Web\bin\Debug\System.Web.Http.WebHost.xml
+D:\Project\MyWeb - oNE\trunk\Core.Web\obj\Debug\Core.Web.csprojResolveAssemblyReference.cache
+D:\Project\MyWeb - oNE\trunk\Core.Web\obj\Debug\Core.Web.dll
+D:\Project\MyWeb - oNE\trunk\Core.Web\obj\Debug\Core.Web.pdb
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.Web\bin\Debug\Core.Web.dll.config
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.Web\bin\Debug\Core.Web.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.Web\bin\Debug\Core.Web.pdb
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.Web\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.Web\bin\Debug\Microsoft.Owin.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.Web\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.Web\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.Web\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.Web\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.Web\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.Web\bin\Debug\Owin.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.Web\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.Web\bin\Debug\System.Web.Cors.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.Web\bin\Debug\System.Web.Http.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.Web\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.Web\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.Web\bin\Debug\Microsoft.Owin.xml
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.Web\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.Web\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.Web\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.Web\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.Web\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.Web\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.Web\bin\Debug\System.Web.Http.xml
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.Web\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.Web\obj\Debug\Core.Web.csproj.AssemblyReference.cache
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.Web\obj\Debug\Core.Web.csproj.CoreCompileInputs.cache
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.Web\obj\Debug\Core.Web.csproj.CopyComplete
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.Web\obj\Debug\Core.Web.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.Web\obj\Debug\Core.Web.pdb

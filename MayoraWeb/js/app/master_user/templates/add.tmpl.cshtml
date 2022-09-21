@@ -1,0 +1,74 @@
+﻿@using Core.Web.Helpers
+@model MyWeb.ViewModels.euser.usermasterModel
+@{
+    var addModel = Html.Angular().ModelFor("vm.masteruser");
+}
+<form class="form-horizontal"
+      novalidate
+      name="vm.form"
+      ng-submit="vm.save()">
+    <fieldset ng-disabled="vm.saving">
+        <div class="modal-header">
+            <h3 class="modal-title">{{vm.title}} Master User</h3>
+        </div>
+
+        <div class="modal-body">
+            <div class="row">
+                <div class="col-lg-6">
+                    @addModel.FormGroupFor(x => x.Name).SetLabelSize("col-lg-3").SetInputSize("col-lg-9")
+                </div>
+                <div class="col-lg-6">
+                    @(Html.Angular().PicklistFor("vm.selected_office")
+                    .Title("Office")
+                    .Id("officeId")
+                    .Name("officeDesc")
+                    .ListService("vm.officeGetPage")
+                    .OnSelect("vm.onSelect_office()")
+                    .HideColumns("officeId")
+                    .Message("vm.message")
+                    .AddValidation("vm.is_office_valid", "Harus Diisi!")
+                    .SetLabelSize("col-lg-3").SetInputSize("col-lg-9"))
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    @addModel.FormGroupFor(x => x.RealName).SetLabelSize("col-lg-3").SetInputSize("col-lg-9")
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-3"><label>Password</label></div>
+                        <div class="col-lg-9"><input type="password" ng-model="vm.masteruser.password" class="form-control"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    @addModel.FormGroupFor(x => x.MaxPassWrong).SetLabelSize("col-lg-3").SetInputSize("col-lg-9")
+                </div>
+                <div class="col-lg-6">
+                    @addModel.FormGroupFor(x => x.ExpiredDate).SetLabelSize("col-lg-3").SetInputSize("col-lg-9")
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    @addModel.FormGroupFor(x => x.ActiveBit).SetLabelSize("col-lg-3").SetInputSize("col-lg-9")
+                </div>
+                <div class="col-lg-6">
+                    @addModel.FormGroupFor(x => x.NIK).SetLabelSize("col-lg-3").SetInputSize("col-lg-9")
+                </div>
+            </div>
+        </div>
+
+        <div class="modal-footer">
+            <div class="row">
+                <div class="col-lg-12">
+                    @Html.Angular().AlertGlobal("vm.message")
+                </div>
+            </div>
+            <button class="btn btn-success">Add</button>
+            <button type="button" class="btn btn-warning" ng-click="$dismiss()">Cancel</button>
+        </div>
+
+    </fieldset>
+</form>
+

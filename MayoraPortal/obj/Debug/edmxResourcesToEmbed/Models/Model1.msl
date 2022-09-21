@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SQL_USERModelStoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="MyNote">
+      <EntityTypeMapping TypeName="SQL_USERModel.MyNote">
+        <MappingFragment StoreEntitySet="MyNote">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="id_user" ColumnName="id_user" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="posted_date" ColumnName="posted_date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MyTask">
+      <EntityTypeMapping TypeName="SQL_USERModel.MyTask">
+        <MappingFragment StoreEntitySet="MyTask">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="id_user" ColumnName="id_user" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="fixdate" ColumnName="fixdate" />
+          <ScalarProperty Name="startdate" ColumnName="startdate" />
+          <ScalarProperty Name="enddate" ColumnName="enddate" />
+          <ScalarProperty Name="posted_by" ColumnName="posted_by" />
+          <ScalarProperty Name="posted_date" ColumnName="posted_date" />
+          <ScalarProperty Name="note" ColumnName="note" />
+          <ScalarProperty Name="progres" ColumnName="progres" />
+          <ScalarProperty Name="alert_me" ColumnName="alert_me" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

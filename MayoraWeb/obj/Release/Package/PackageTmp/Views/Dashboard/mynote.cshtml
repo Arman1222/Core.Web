@@ -1,0 +1,49 @@
+﻿@using Core.Web.Helpers
+@{
+    Layout = null;
+}
+
+<!-- Content Header (Page header) -->
+<div ng-controller="noteandtaskController as vm">
+    @*<button ng-click="vm.addSlide()">add</button>*@
+    @*<code>{{vm.sliderVal | json}}</code>
+    <input ng-slider-two type="text" name="range_1" value="" from="vm.sliderVal" class="irs-hidden-input" readonly="">*@
+    <div class="row">
+        <div class="col-md-4" ng-repeat="note in vm.allmynote">
+            <div class="{{ note.note_class }}">
+                <div class="box-header with-border">
+                    <h3 class="box-title" ng-bind="note.title"></h3>
+                    <div class="box-tools pull-right">
+                        <button type="button" class="btn btn-box-tool" data-widget="collapse">
+                            <i class="fa fa-minus"></i>
+                        </button>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-box-tool dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+                                <i class="fa fa-wrench"></i>
+                            </button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a ng-click="vm.editNote(note)"><i class="fa fa-edit "></i> Update</a></li>
+                                <li><a ng-click="vm.removeNote(note)"><i class="fa fa-trash-o"></i> Remove</a></li>
+                            </ul>
+                        </div>
+                        <button type="button" class="btn btn-box-tool" data-widget="remove">
+                            <i class="fa fa-times"></i>
+                        </button>
+                    </div>
+                    <!-- /.box-tools -->
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                    @(Html.Angular().TexthtmlFor("note.description")
+                              .Disabled("true")
+                              .editorFitur(editorFitur.simple)
+                    )
+                </div>
+                <!-- /.box-body -->
+            </div>
+            <!-- /.box -->
+        </div>
+
+    </div>
+</div>
+<!-- /.row -->

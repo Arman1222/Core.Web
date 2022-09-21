@@ -1,0 +1,51 @@
+﻿@using Core.Web.Helpers
+@model Core.Web.Models.Applications.MyNote
+@{
+    var _model = Html.Angular().ModelFor("vm.mynote");
+}
+<form class="form-horizontal"
+          novalidate
+          name="vm.form"
+          ng-submit="vm.form.$valid && vm.save()">
+        <fieldset ng-disabled="vm.saving">
+
+            <div class="modal-header">
+                <h3 class="modal-title">{{vm.title}}</h3>
+            </div>
+
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-lg-12">
+                        @_model.FormGroupFor(x => x.Title)
+
+                        <div class="form-group has-feedback ng-isolate-scope" form-group-validation="Title">
+                            <ng-transclude>
+                                <label for="Title" class="control-label col-sm-2 ng-scope">Note Type</label>
+                                <div class="col-sm-10 ng-scope">
+                                    <select class="form-control" ng-model="vm.mynote.note_class">
+                                        <option value="box box-default" selected="selected">Default</option>
+                                        <option value="box box-info">Info</option>
+                                        <option value="box box-primary">Primary</option>
+                                        <option value="box box-warning">Warning</option>
+                                        <option value="box box-danger">Danger</option>
+                                        <option value="box box-success">Success</option>
+                                    </select>
+                                </div>
+                            </ng-transclude>
+                        </div>
+                        @(Html.Angular().TexthtmlFor("vm.mynote.description")
+                              .Title("Description")
+                              .editorFitur(editorFitur.simple)
+                        )
+                    </div>
+                </div>
+            </div>
+                
+            <div class="modal-footer">
+                <button class="btn btn-success">Add</button>
+                <button type="button" class="btn btn-warning" ng-click="$dismiss()">Cancel</button>
+            </div>
+
+        </fieldset>
+    </form>
+

@@ -1,0 +1,59 @@
+﻿@using Core.Web.Helpers
+@using MyWeb.Controllers.Customers
+@using MyWeb.ViewModels.Customers
+@model dynamic
+@{
+    Layout = null;
+}
+@*@model MyWeb.Forms.Customers.CustomerForm
+    @{
+        var customer = Html.Angular().ModelFor("vm.customer");
+        ViewBag.Title = "Customer";
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }*@
+
+<div ng-controller="CustomerController as vm">
+                <div class="panel-body">
+                    @(Html.Angular()
+                                .GridFor("vm.customersFunction")
+                            .Title("Master Office List")
+                            .Message("vm.message")
+                            .TableActions("vm.tableActions")
+                            .RefreshData("vm.refreshData")
+                            .AddData("vm.add")
+                        .GetAll("vm.customersGetAll")
+                        .OnLoad("vm.onLoadTableCustomer")
+                        //.TotalItems("vm.totalItems")
+                        .Response("vm.response")
+                        .EnableSelect(true)
+                        .SelectedRows("vm.selectedRows")
+                        .RowStyle("vm.rowStyle")
+                        .CsvFilename("CustomerList.csv")
+                        .Init("vm.onLoadTableCustomer")
+                        .HideSearch()
+                        .EnableFilter(enableFilter: true)
+                        .onBlurEditedCell("vm.onBlurEditedCell")
+                        //.EnableSelect(false)
+                                    //.AutoLoad(true)
+                                    //.SelectColumn(true)
+                        .Columns<CustomerViewModel>(config =>
+                        {
+                            //config.Add(x => x, "Select", null, "<div><a href='' ng-click='grid.appScope.tableActions.onSelect(row.entity)'><i class='fa fa-edit fa-lg'></i></a></div>");
+                            config.Add(x => x.CustomerType, "Customer Type", null, "<div class='ui-grid-cell-contents' style='background-color:red'><span ng-bind='row.entity.customerType'></span></div>");
+                            config.Add(x => x.Name, "Name", null, "<div class='ui-grid-cell-contents' style='background-color:green'><span ng-bind='row.entity.name'></span></div>");
+                            config.Add(x => x.Address, enableCellEdit: true, enableFiltering: true);
+                            config.Add(x => x.Phone, enableCellEdit: true);
+                            config.Add(x => x.Email, enableCellEdit: true, enableFiltering: true);
+                            config.Add(x => x.StatusData, enableCellEdit: true);
+                            config.Add(x => x.TerminationDate, "Date Joined", "dateFormat", enableCellEdit: true, type: "date", enableFiltering: true);
+                            config.Add(x => x.CreateDate, "Create Date", "dateFormat");
+                            config.Add(x => x.UpdateDate, "Update Date", "dateFormat");
+                            config.Add(x => x.ApproveDate, "Approve Date", "dateFormat");
+                            config.Add(x => x, "Action", null, "<div><a href='' ng-click='grid.appScope.tableActions.onEdit(row.entity)'><i class='fa fa-edit fa-lg'></i></a> <a href='' ng-click='grid.appScope.tableActions.onDetail(row.entity)'><i class='fa fa-pencil fa-lg'></i></a> <a href='' ng-click='grid.appScope.tableActions.onDelete(row.entity.customerId)'><i class='fa fa-trash fa-lg'></i></a></div>");
+                        })
+                    )
+
+
+                    
+                </div>
+</div>

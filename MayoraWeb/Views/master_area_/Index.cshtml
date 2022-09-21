@@ -1,0 +1,26 @@
+﻿@using Core.Web.Helpers
+@using MyWeb.ViewModels.area_master
+@using MyWeb.ViewModels.Applications
+@model dynamic
+@{
+    Layout = null;
+}
+<div ng-controller="master_area_Controller as vm">
+        @(Html.Angular()
+            .GridFor("vm.master_area_GetPage")
+            .Title("Master Area List")
+            .Message("vm.message")
+            .TableActions("vm.tableActions")
+            .RefreshData("vm.refreshData")
+            .AddData("vm.add")
+        .Columns<sp_areaMaster_Model>(config =>
+        {
+            config.Add(x => x, "Action", null, "<div><a href='' ng-click='grid.appScope.tableActions.onEdit(row.entity)'><i class='fa fa-edit fa-lg'></i></a></div>");
+            config.Add(x => x.AreaCode, "Area Code");
+            config.Add(x => x.AreaName, "Area Name");
+            config.Add(x => x.CreateBy, "Create By");
+            config.Add(x => x.CreateDate, "Create Date", "date : 'EEE, dd-MMM-yyyy HH:mm:ss'", width: 200);
+            config.Add(x => x.UpdateBy, "Update By");
+            config.Add(x => x.UpdateDate, "Update Date", "date : 'EEE, dd-MMM-yyyy HH:mm:ss'", width: 200);
+        }))
+</div>

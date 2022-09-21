@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SQL_USERModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="MyNote">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="id_user" Type="nvarchar" MaxLength="256" />
+    <Property Name="Title" Type="nvarchar" MaxLength="100" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="posted_date" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="MyTask">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="id_user" Type="nvarchar" MaxLength="256" />
+    <Property Name="Title" Type="nvarchar" MaxLength="100" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="fixdate" Type="bit" />
+    <Property Name="startdate" Type="date" />
+    <Property Name="enddate" Type="date" />
+    <Property Name="posted_by" Type="nvarchar" MaxLength="256" />
+    <Property Name="posted_date" Type="nchar" MaxLength="10" />
+    <Property Name="note" Type="nvarchar(max)" />
+    <Property Name="progres" Type="int" />
+    <Property Name="alert_me" Type="bit" />
+  </EntityType>
+  <Association Name="FK_MyTask_MyTask">
+    <End Role="MyTask" Type="Self.MyTask" Multiplicity="1" />
+    <End Role="MyTask1" Type="Self.MyTask" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="MyTask">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="MyTask1">
+        <PropertyRef Name="id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SQL_USERModelStoreContainer">
+    <EntitySet Name="MyNote" EntityType="Self.MyNote" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MyTask" EntityType="Self.MyTask" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_MyTask_MyTask" Association="Self.FK_MyTask_MyTask">
+      <End Role="MyTask" EntitySet="MyTask" />
+      <End Role="MyTask1" EntitySet="MyTask" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

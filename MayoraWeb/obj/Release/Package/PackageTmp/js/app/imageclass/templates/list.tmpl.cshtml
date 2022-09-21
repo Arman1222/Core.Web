@@ -1,0 +1,21 @@
+﻿@using Core.Web.Helpers
+@model IEnumerable<MyWeb.ViewModels.Menus.ImageClassViewModel>
+@{
+	var imageClasses = Html.Angular().ModelFor("vm.imageclasses");
+}
+
+<table class="table">
+    <tr><th>Name</th><th>Phone</th></tr>
+    @foreach(var imageclass in Model){        
+    @*<tr ng-repeat="imageclass in vm.imageclasses | filter:searchText">*@
+    <tr>
+        <td>imageClass.BindingFor(x => x.ImageClassId)</td>
+        <td>imageClass.BindingFor(x => x.ImageClassName)</td>
+        <td>
+            Html.ActionLink("Edit", "Edit", new { id = imageClass.ImageClassId }) |
+            Html.ActionLink("Details", "Details", new { id = imageClass.ImageClassId }) |
+            Html.ActionLink("Delete", "Delete", new { id = imageClass.ImageClassId })
+        </td>
+    </tr>
+    }
+</table>

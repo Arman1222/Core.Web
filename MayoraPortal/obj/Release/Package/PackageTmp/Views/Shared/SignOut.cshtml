@@ -1,0 +1,20 @@
+﻿@model IEnumerable<string>
+
+@{    
+    ViewBag.HideMenu = true;
+}
+
+<h2>Log Out</h2>
+<p>You are Logged Out</p>
+
+@if (!string.IsNullOrWhiteSpace(ViewBag.ReturnUrl))
+{
+    <p>
+        <a href='@ViewBag.ReturnUrl'>Return to Login Page</a>
+    </p>
+}
+
+@foreach (var link in Model)
+{
+    <iframe style="visibility: hidden; width: 1px; height: 1px" src="@link/account/logoff"></iframe>
+}

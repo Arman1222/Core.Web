@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8498F171-EE61-4ACC-880C-A3A3987840DD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Core.Web</RootNamespace>
+    <AssemblyName>Core.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\MayoraWeb\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <WebGreaseLibPath>..\MyWeb\packages\WebGrease.1.5.2\lib</WebGreaseLibPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime">
+      <HintPath>..\MyWeb\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="AutoMapper, Version=4.1.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\MyWeb\packages\AutoMapper.4.1.1\lib\net45\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\MayoraWeb\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\MayoraWeb\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentValidationNA">
+      <HintPath>..\MyWeb\packages\FluentValidationNA.1.2.16\lib\net40\FluentValidationNA.dll</HintPath>
+    </Reference>
+    <Reference Include="Heroic.AutoMapper">
+      <HintPath>..\MyWeb\packages\Heroic.AutoMapper.1.1.0\lib\net45\Heroic.AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Heroic.Web.IoC">
+      <HintPath>..\MyWeb\packages\Heroic.Web.IoC.3.2.1\lib\net45\Heroic.Web.IoC.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlTags">
+      <HintPath>..\MayoraWeb\packages\HtmlTags.3.0.0.186\lib\4.0\HtmlTags.dll</HintPath>
+    </Reference>
+    <Reference Include="Humanizer">
+      <HintPath>..\MayoraWeb\packages\Humanizer.1.37.7\lib\portable-win+net40+sl50+wp8+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Humanizer.dll</HintPath>
+    </Reference>
+    <Reference Include="License">
+      <HintPath>C:\Program Files (x86)\Eziriz\.NET Reactor\SDK\Binaries\License.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core">
+      <HintPath>..\MayoraWeb\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework">
+      <HintPath>..\MayoraWeb\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.1\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.2.2.1\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin, Version=3.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.3.1.0\lib\net45\Microsoft.Owin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb, Version=3.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.3.1.0\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security, Version=3.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.3.1.0\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.2.1.0\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.2.1.0\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\MyWeb\packages\MicrosoftReportViewerWebForms.11.0.0.0\lib\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\MyWeb\packages\MicrosoftReportViewerWebForms.11.0.0.0\lib\Microsoft.ReportViewer.ProcessingObjectModel.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\MyWeb\packages\MicrosoftReportViewerWebForms.11.0.0.0\lib\Microsoft.ReportViewer.WebForms.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\Mayora\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Mvc">
+      <HintPath>..\MayoraWeb\packages\Microsoft.AspNet.Mvc.Futures.5.0.0\lib\net40\Microsoft.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="RestSharp">
+      <HintPath>..\MayoraWeb\packages\RestSharp.105.2.3\lib\net45\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="StructureMap, Version=3.0.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\MyWeb\packages\structuremap.3.0.5.130\lib\net40\StructureMap.dll</HintPath>
+    </Reference>
+    <Reference Include="StructureMap.Net4, Version=3.0.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\MyWeb\packages\structuremap.3.0.5.130\lib\net40\StructureMap.Net4.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.identitymodel.services" />
+    <Reference Include="System.Linq.Dynamic, Version=1.1.14.15853, Culture=neutral, PublicKeyToken=b72be0322d1b32a8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\MyWeb\packages\System.Linq.Dynamic.Library.1.1.14\lib\net40\System.Linq.Dynamic.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Cors, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Cors.5.0.0\lib\net45\System.Web.Cors.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=4.0.0.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Twilio.Api">
+      <HintPath>..\MayoraWeb\packages\Twilio.4.4.1\lib\3.5\Twilio.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="WebActivatorEx">
+      <HintPath>..\MyWeb\packages\WebActivatorEx.2.1.0\lib\net40\WebActivatorEx.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <HintPath>..\MyWeb\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActionResults\CoreJsonResult.cs" />
+    <Compile Include="Alerts\Alert.cs" />
+    <Compile Include="Alerts\AlertDecoratorResult.cs" />
+    <Compile Include="Alerts\AlertExtensions.cs" />
+    <Compile Include="App_Start\AutoMapperConfig.cs" />
+    <Compile Include="App_Start\StructureMapConfig.cs" />
+    <Compile Include="Config\IdentityConfig.cs" />
+    <Compile Include="Controllers\Applications\DashboardController.cs" />
+    <Compile Include="Controllers\Applications\MyCalenderController.cs" />
+    <Compile Include="Controllers\Applications\MyNoteandTaskController.cs" />
+    <Compile Include="Controllers\Applications\DivisionController.cs" />
+    <Compile Include="Controllers\Applications\PortalController.cs" />
+    <Compile Include="Controllers\Applications\UploadFileController.cs" />
+    <Compile Include="Controllers\Applications\AccountController.cs" />
+    <Compile Include="Controllers\Applications\ApplicationController.cs" />
+    <Compile Include="Controllers\Applications\ApplicationRolesController.cs" />
+    <Compile Include="Controllers\Applications\ApplicationUsersController.cs" />
+    <Compile Include="Controllers\Applications\AreaController.cs" />
+    <Compile Include="Controllers\Applications\CustomerTemenosController.cs" />
+    <Compile Include="Controllers\Applications\BranchController.cs" />
+    <Compile Include="Controllers\Applications\CompanyController.cs" />
+    <Compile Include="Controllers\Applications\EmployeeController.cs" />
+    <Compile Include="Controllers\Applications\HomeMenuRoleController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controllers\Applications\StoreProcedureController.cs" />
+    <Compile Include="Controllers\Applications\WidgetController.cs" />
+    <Compile Include="Controllers\Applications\JabatanController.cs" />
+    <Compile Include="Controllers\Applications\DepartmentController.cs" />
+    <Compile Include="Controllers\Applications\HomeController.cs" />
+    <Compile Include="Controllers\Applications\ImageClassController.cs" />
+    <Compile Include="Controllers\Applications\ManageController.cs" />
+    <Compile Include="Controllers\Applications\MenuRoleController.cs" />
+    <Compile Include="Controllers\Applications\NavbarController.cs" />
+    <Compile Include="Controllers\Applications\TemplateController.cs" />
+    <Compile Include="Controllers\CoreControllerBase.cs" />
+    <Compile Include="DataLayer\ApplicationConfiguration.cs" />
+    <Compile Include="DataLayer\ApplicationDataHelper.cs" />
+    <Compile Include="DataLayer\ApplicationDbContext.cs" />
+    <Compile Include="DataLayer\Applications\AppConfiguration.cs" />
+    <Compile Include="DataLayer\Applications\DivisionConfiguration.cs" />
+    <Compile Include="DataLayer\Applications\HomeMenuRoleConfiguration.cs" />
+    <Compile Include="DataLayer\Applications\ApplicationUserConfiguration.cs" />
+    <Compile Include="DataLayer\Applications\ApplicationMasterConfiguration.cs" />
+    <Compile Include="DataLayer\Applications\AreaConfiguration.cs" />
+    <Compile Include="DataLayer\Applications\CompanyConfiguration.cs" />
+    <Compile Include="DataLayer\Applications\BranchConfiguration.cs" />
+    <Compile Include="DataLayer\Applications\CategoryConfiguration.cs" />
+    <Compile Include="DataLayer\Applications\CustomerTemenosConfiguration.cs" />
+    <Compile Include="DataLayer\Applications\JabatanConfiguration.cs" />
+    <Compile Include="DataLayer\Applications\EmployeeConfiguration.cs" />
+    <Compile Include="DataLayer\Applications\DepartmentConfiguration.cs" />
+    <Compile Include="DataLayer\Applications\MenuConfiguration.cs" />
+    <Compile Include="DataLayer\SqlMyPeople\SqlMyPeopleConfiguration.cs" />
+    <Compile Include="DataLayer\SqlMyPeople\SqlMyPeopleDbContext.cs" />
+    <Compile Include="DataLayer\SqlTemenos\SqlTemenosConfiguration.cs" />
+    <Compile Include="DataLayer\SqlTemenos\SqlTemenosDbContext.cs" />
+    <Compile Include="Helpers\AngularHelper.cs" />
+    <Compile Include="Helpers\AngularModelHelper.cs" />
+    <Compile Include="Helpers\AngularNgRepeatHelper.cs" />
+    <Compile Include="Helpers\EscapeCommaConverter.cs" />
+    <Compile Include="Helpers\MonthTag.cs" />
+    <Compile Include="Helpers\FileUploadTag.cs" />
+    <Compile Include="Helpers\MultiselectPickTag.cs" />
+    <Compile Include="Helpers\MultiselectTag.cs" />
+    <Compile Include="Helpers\Texthtmltag.cs" />
+    <Compile Include="Helpers\TypeForm.cs" />
+    <Compile Include="Helpers\UploadFileTag.cs" />
+    <Compile Include="Helpers\UploadDataTag.cs" />
+    <Compile Include="Helpers\CoreSignInStatus.cs" />
+    <Compile Include="Helpers\ComboboxTag.cs" />
+    <Compile Include="Helpers\TextTag.cs" />
+    <Compile Include="Helpers\MyNumberTag.cs" />
+    <Compile Include="Helpers\NumberTag.cs" />
+    <Compile Include="Helpers\CheckboxTag.cs" />
+    <Compile Include="Helpers\TimeTag.cs" />
+    <Compile Include="Helpers\EnumTag.cs" />
+    <Compile Include="Helpers\DateTag.cs" />
+    <Compile Include="Helpers\PicklistTag.cs" />
+    <Compile Include="Helpers\GridTag.cs" />
+    <Compile Include="Helpers\HtmlTagHelpers.cs" />
+    <Compile Include="Helpers\HtmlHelpers.cs" />
+    <Compile Include="Helpers\JsonHtmlHelpers.cs" />
+    <Compile Include="Helpers\SqlHelper.cs" />
+    <Compile Include="Helpers\UIRatingTag.cs" />
+    <Compile Include="Infrastructure\CurrentUser.cs" />
+    <Compile Include="Infrastructure\ICurrentUser.cs" />
+    <Compile Include="Infrastructure\MyAuthorizeAttribute.cs" />
+    <Compile Include="Models\Applications\ApplicationRole.cs" />
+    <Compile Include="Models\Applications\ApplicationErrorLog.cs" />
+    <Compile Include="Models\Applications\ApplicationUser.cs" />
+    <Compile Include="Models\Applications\Application_by_role_Result.cs" />
+    <Compile Include="Models\Applications\Area.cs" />
+    <Compile Include="Models\Applications\Category.cs" />
+    <Compile Include="Models\Applications\Application.cs" />
+    <Compile Include="Models\Applications\CustomerTemenos.cs" />
+    <Compile Include="Models\Applications\Division.cs" />
+    <Compile Include="Models\Applications\Jabatan.cs" />
+    <Compile Include="Models\Applications\Employee.cs" />
+    <Compile Include="Models\Applications\Department.cs" />
+    <Compile Include="Models\Applications\EntityBase.cs" />
+    <Compile Include="Models\Applications\Branch.cs" />
+    <Compile Include="Models\Applications\Company.cs" />
+    <Compile Include="Models\Applications\ImageClass.cs" />
+    <Compile Include="Models\Applications\InventoryItem.cs" />
+    <Compile Include="Models\Applications\Labor.cs" />
+    <Compile Include="Models\Applications\HomeMenuRole.cs" />
+    <Compile Include="Models\Applications\MenuRole.cs" />
+    <Compile Include="Models\Applications\Navbar.cs" />
+    <Compile Include="Models\Applications\my_people_dashboard_Result.cs" />
+    <Compile Include="Models\Applications\Navbar_by_role_app_Result.cs" />
+    <Compile Include="Models\Applications\Role_by_user_Result.cs" />
+    <Compile Include="Models\Applications\Part.cs" />
+    <Compile Include="Models\Applications\ServiceItem.cs" />
+    <Compile Include="Models\Applications\WorkOrder.cs" />
+    <Compile Include="Models\Applications\MyTask.cs" />
+    <Compile Include="Models\Applications\MyNote.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registry\AspNetIdentityRegistry.cs" />
+    <Compile Include="Security\ACSConstants.cs" />
+    <Compile Include="Security\CoreLicense.cs" />
+    <Compile Include="Security\CustomSecurityTokenService.cs" />
+    <Compile Include="Security\SingleSignOnManager.cs" />
+    <Compile Include="Utilities\AutoMapperHelper.cs" />
+    <Compile Include="Utilities\DataTableExtensions.cs" />
+    <Compile Include="Utilities\Email.cs" />
+    <Compile Include="Utilities\File.cs" />
+    <Compile Include="Utilities\FilePath.cs" />
+    <Compile Include="Utilities\CoreExtensions.cs" />
+    <Compile Include="Utilities\Mapper.cs" />
+    <Compile Include="Utilities\YesNoEnum.cs" />
+    <Compile Include="Utilities\StatusData.cs" />
+    <Compile Include="Utilities\FileType.cs" />
+    <Compile Include="Utilities\ITreeNodeDotNet.cs" />
+    <Compile Include="Utilities\JsonExtensions.cs" />
+    <Compile Include="Utilities\MyTicketDataFormat.cs" />
+    <Compile Include="Utilities\SqlPasswordHasher.cs" />
+    <Compile Include="Utilities\WebHelpers.cs" />
+    <Compile Include="ViewModels\Applications\AccountViewModels.cs" />
+    <Compile Include="ViewModels\Applications\ApplicationRoleViewModel.cs" />
+    <Compile Include="ViewModels\Applications\ApplicationUserViewModel.cs" />
+    <Compile Include="ViewModels\Applications\ApplicationViewModel.cs" />
+    <Compile Include="ViewModels\Applications\CustomerTemenosViewModel.cs" />
+    <Compile Include="ViewModels\Applications\AreaViewModel.cs" />
+    <Compile Include="ViewModels\Applications\BranchViewModel.cs" />
+    <Compile Include="ViewModels\Applications\CompanyViewModel.cs" />
+    <Compile Include="ViewModels\Applications\DivisionViewModel.cs" />
+    <Compile Include="ViewModels\Applications\EmployeeViewModel.cs" />
+    <Compile Include="ViewModels\Applications\JabatanViewModel.cs" />
+    <Compile Include="ViewModels\Applications\DepartmentViewModel.cs" />
+    <Compile Include="ViewModels\Applications\ManageViewModels.cs" />
+    <Compile Include="ViewModels\Applications\MenuViewModel.cs" />
+    <Compile Include="ViewModels\Applications\ProfileViewModel.cs" />
+    <Compile Include="ViewModels\Applications\RoleViewModel.cs" />
+    <Compile Include="ViewModels\Menus\HomeMenuRoleViewModel.cs" />
+    <Compile Include="ViewModels\Menus\ImageClassViewModel.cs" />
+    <Compile Include="ViewModels\Menus\MenuRoleViewModel.cs" />
+    <Compile Include="ViewModels\Menus\NavbarViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="license.txt" />
+    <Content Include="PackageContents\readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DataLayer\SqlCore\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!--<UsingTask TaskName="SmartAssembly.MSBuild.Tasks.Build" AssemblyName="SmartAssembly.MSBuild.Tasks, Version=6.0.0.0,&#xD;&#xA;    Culture=neutral, PublicKeyToken=7f465a1c156d4d57" />
+  <Target Name="AfterBuild" BeforeTargets="CopyPostBuildEvent">
+    <Message Text="Executing build smart assembly" />
+    <SmartAssembly.MSBuild.Tasks.Build ProjectFile="D:\Project\MayoraWeb\SmartAssembly\Core.Web.saproj" />
+  </Target>-->
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties Reactor_Enabled="0" Reactor_Deploy="0" Reactor_Commands="" Reactor_Project="" Reactor_Configuration="ALL" Reactor_Output="D:\Project\MayoraWeb\MyWeb\MayoraWeb\bin\Core.Web.dll" />
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

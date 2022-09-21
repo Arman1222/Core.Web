@@ -1,0 +1,19 @@
+﻿@using Core.Web.Helpers
+@model MyWeb.ViewModels.Applications.ApplicationViewModel
+@{
+    var application = Html.Angular().ModelFor("vm.application");
+}
+<div class="panel panel-default">
+    <div class="panel-heading">
+        Detail Application        
+    </div>
+    <table class="table" ng-show="vm.selectedView == 'details'">     
+        <tr>
+            <th>Application Name</th>
+            <td>
+                @application.BindingFor(x => x.ApplicationName)
+            </td>
+        </tr>        
+    </table>
+
+</div>

@@ -1,0 +1,13 @@
+﻿<!--
+  This div is copied from the default row template. I have added the ng-mouseover
+  and ng-mouseleave events to highlight it red.
+    http://stackoverflow.com/questions/33944334/angular-ui-grid-how-to-highlight-row-on-mouseover
+
+    Click & DblClick
+    http://stackoverflow.com/questions/28201723/angular-ui-grid-double-click-row-to-open-pop-up-for-editing-a-row
+-->
+<div ng-init="rowStyle=grid.appScope.getRowStyle(row.entity)" ng-dblclick="grid.appScope.tableActions.onDblClick(row.entity)" ng-click="grid.appScope.tableActions.onClick(row.entity)" ng-mouseover="rowStyle={'background-color': '#dff2f7'}; grid.appScope.onRowHover(this);" ng-mouseleave="rowStyle=grid.appScope.getRowStyle(row.entity)">
+    <div ng-style="rowStyle" ng-repeat="(colRenderIndex, col) in colContainer.renderedColumns track by col.uid" ui-grid-one-bind-id-grid="rowRenderIndex + '-' + col.uid + '-cell'"
+         class="ui-grid-cell" ng-class="{ 'ui-grid-row-header-cell': col.isRowHeader }" role="{{col.isRowHeader ? 'rowheader' : 'gridcell'}}" ui-grid-cell>
+    </div>
+</div>

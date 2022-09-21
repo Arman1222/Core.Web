@@ -1,0 +1,261 @@
+D:\Temp\MyWeb\trunk\Core.ConsoleTest\bin\Debug\Core.ConsoleTest.exe.config
+D:\Temp\MyWeb\trunk\Core.ConsoleTest\bin\Debug\Core.ConsoleTest.exe
+D:\Temp\MyWeb\trunk\Core.ConsoleTest\bin\Debug\Core.ConsoleTest.pdb
+D:\Temp\MyWeb\trunk\Core.ConsoleTest\bin\Debug\Core.Web.dll
+D:\Temp\MyWeb\trunk\Core.ConsoleTest\bin\Debug\System.Web.Mvc.dll
+D:\Temp\MyWeb\trunk\Core.ConsoleTest\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Temp\MyWeb\trunk\Core.ConsoleTest\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+D:\Temp\MyWeb\trunk\Core.ConsoleTest\bin\Debug\EntityFramework.dll
+D:\Temp\MyWeb\trunk\Core.ConsoleTest\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Temp\MyWeb\trunk\Core.ConsoleTest\bin\Debug\HtmlTags.dll
+D:\Temp\MyWeb\trunk\Core.ConsoleTest\bin\Debug\StructureMap.dll
+D:\Temp\MyWeb\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.Security.dll
+D:\Temp\MyWeb\trunk\Core.ConsoleTest\bin\Debug\Heroic.AutoMapper.dll
+D:\Temp\MyWeb\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.dll
+D:\Temp\MyWeb\trunk\Core.ConsoleTest\bin\Debug\AutoMapper.dll
+D:\Temp\MyWeb\trunk\Core.ConsoleTest\bin\Debug\WebActivatorEx.dll
+D:\Temp\MyWeb\trunk\Core.ConsoleTest\bin\Debug\StructureMap.Net4.dll
+D:\Temp\MyWeb\trunk\Core.ConsoleTest\bin\Debug\Heroic.Web.IoC.dll
+D:\Temp\MyWeb\trunk\Core.ConsoleTest\bin\Debug\System.Web.Http.WebHost.dll
+D:\Temp\MyWeb\trunk\Core.ConsoleTest\bin\Debug\System.Web.Http.dll
+D:\Temp\MyWeb\trunk\Core.ConsoleTest\bin\Debug\Twilio.Api.dll
+D:\Temp\MyWeb\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Web.Mvc.dll
+D:\Temp\MyWeb\trunk\Core.ConsoleTest\bin\Debug\System.Linq.Dynamic.dll
+D:\Temp\MyWeb\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+D:\Temp\MyWeb\trunk\Core.ConsoleTest\bin\Debug\Humanizer.dll
+D:\Temp\MyWeb\trunk\Core.ConsoleTest\bin\Debug\License.dll
+D:\Temp\MyWeb\trunk\Core.ConsoleTest\bin\Debug\System.Web.Razor.dll
+D:\Temp\MyWeb\trunk\Core.ConsoleTest\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Temp\MyWeb\trunk\Core.ConsoleTest\bin\Debug\System.Web.WebPages.dll
+D:\Temp\MyWeb\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+D:\Temp\MyWeb\trunk\Core.ConsoleTest\bin\Debug\Owin.dll
+D:\Temp\MyWeb\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+D:\Temp\MyWeb\trunk\Core.ConsoleTest\bin\Debug\System.Web.Optimization.dll
+D:\Temp\MyWeb\trunk\Core.ConsoleTest\bin\Debug\System.Net.Http.Formatting.dll
+D:\Temp\MyWeb\trunk\Core.ConsoleTest\bin\Debug\RestSharp.dll
+D:\Temp\MyWeb\trunk\Core.ConsoleTest\bin\Debug\FluentValidationNA.dll
+D:\Temp\MyWeb\trunk\Core.ConsoleTest\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Temp\MyWeb\trunk\Core.ConsoleTest\bin\Debug\Core.Web.pdb
+D:\Temp\MyWeb\trunk\Core.ConsoleTest\obj\Debug\Core.ConsoleTest.csprojResolveAssemblyReference.cache
+D:\Temp\MyWeb\trunk\Core.ConsoleTest\obj\Debug\Core.ConsoleTest.exe
+D:\Temp\MyWeb\trunk\Core.ConsoleTest\obj\Debug\Core.ConsoleTest.pdb
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Core.ConsoleTest.exe.config
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Core.ConsoleTest.exe
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Core.ConsoleTest.pdb
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Core.Web.dll
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\System.Web.Mvc.dll
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\EntityFramework.dll
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Newtonsoft.Json.dll
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\HtmlTags.dll
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\StructureMap.dll
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.Security.dll
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Heroic.AutoMapper.dll
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.dll
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\AutoMapper.dll
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\WebActivatorEx.dll
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\StructureMap.Net4.dll
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Heroic.Web.IoC.dll
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\System.Web.Http.WebHost.dll
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\System.Web.Http.dll
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Twilio.Api.dll
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Web.Mvc.dll
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\System.Linq.Dynamic.dll
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Humanizer.dll
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\License.dll
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\System.Web.Razor.dll
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\System.Web.WebPages.dll
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Owin.dll
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\System.Web.Optimization.dll
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\System.Net.Http.Formatting.dll
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\RestSharp.dll
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\FluentValidationNA.dll
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\WebGrease.dll
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Antlr3.Runtime.dll
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Core.Web.pdb
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Newtonsoft.Json.xml
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.Security.xml
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.xml
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\System.Web.Http.WebHost.xml
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\System.Web.Http.xml
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\System.Net.Http.Formatting.xml
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\obj\Debug\Core.ConsoleTest.csprojResolveAssemblyReference.cache
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\obj\Debug\Core.ConsoleTest.exe
+D:\Temp\MyWeb - oNE\trunk\Core.ConsoleTest\obj\Debug\Core.ConsoleTest.pdb
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Core.ConsoleTest.exe.config
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Core.ConsoleTest.exe
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Core.ConsoleTest.pdb
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Core.Web.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\System.Web.Mvc.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\EntityFramework.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Newtonsoft.Json.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\HtmlTags.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\StructureMap.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.Security.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Heroic.AutoMapper.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\AutoMapper.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\WebActivatorEx.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\StructureMap.Net4.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Heroic.Web.IoC.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\System.Web.Http.WebHost.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\System.Web.Http.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Twilio.Api.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Web.Mvc.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\System.Linq.Dynamic.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\License.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\System.Web.Razor.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\System.Web.WebPages.Razor.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\System.Web.WebPages.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Owin.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\System.Web.Optimization.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\System.Net.Http.Formatting.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\RestSharp.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\FluentValidationNA.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\WebGrease.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Antlr3.Runtime.dll
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Core.Web.pdb
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.Security.xml
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.xml
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\System.Web.Http.WebHost.xml
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\System.Web.Http.xml
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\System.Net.Http.Formatting.xml
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\obj\Debug\Core.ConsoleTest.csprojResolveAssemblyReference.cache
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\obj\Debug\Core.ConsoleTest.exe
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\obj\Debug\Core.ConsoleTest.pdb
+D:\One-Temp\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Newtonsoft.Json.xml
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Core.ConsoleTest.exe.config
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Core.ConsoleTest.exe
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Core.ConsoleTest.pdb
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Core.Web.dll
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\System.Web.Mvc.dll
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\EntityFramework.dll
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Newtonsoft.Json.dll
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\HtmlTags.dll
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\StructureMap.dll
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.Security.dll
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Heroic.AutoMapper.dll
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.dll
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\AutoMapper.dll
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\WebActivatorEx.dll
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\StructureMap.Net4.dll
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Heroic.Web.IoC.dll
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\System.Web.Http.WebHost.dll
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\System.Web.Http.dll
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Twilio.Api.dll
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Web.Mvc.dll
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\System.Linq.Dynamic.dll
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\License.dll
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\System.Web.Razor.dll
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\System.Web.WebPages.dll
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Owin.dll
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\System.Web.Optimization.dll
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\System.Net.Http.Formatting.dll
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\RestSharp.dll
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\FluentValidationNA.dll
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\WebGrease.dll
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Antlr3.Runtime.dll
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Core.Web.pdb
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Newtonsoft.Json.xml
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.Security.xml
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.xml
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\System.Web.Http.WebHost.xml
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\System.Web.Http.xml
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\bin\Debug\System.Net.Http.Formatting.xml
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\obj\Debug\Core.ConsoleTest.csprojResolveAssemblyReference.cache
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\obj\Debug\Core.ConsoleTest.exe
+D:\Project\MyWeb - oNE\trunk\Core.ConsoleTest\obj\Debug\Core.ConsoleTest.pdb
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\Core.ConsoleTest.exe.config
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\Core.ConsoleTest.exe
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\Core.ConsoleTest.pdb
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\Core.Web.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\WebActivatorEx.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\System.Web.Mvc.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\Twilio.Api.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\Heroic.AutoMapper.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\AutoMapper.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\EntityFramework.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\Heroic.Web.IoC.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\StructureMap.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\Microsoft.ReportViewer.WebForms.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\HtmlTags.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\System.Web.Http.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\License.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Web.Mvc.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\StructureMap.Net4.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\System.Linq.Dynamic.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\System.Web.Razor.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\System.Web.WebPages.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\RestSharp.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\Owin.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\System.Web.Optimization.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\FluentValidationNA.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\WebGrease.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\Core.Web.pdb
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\Core.Web.dll.config
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.xml
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\System.Web.Http.xml
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\obj\Debug\Core.ConsoleTest.csproj.AssemblyReference.cache
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\obj\Debug\Core.ConsoleTest.csproj.CoreCompileInputs.cache
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\obj\Debug\Core.ConsoleTest.csproj.CopyComplete
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\obj\Debug\Core.ConsoleTest.exe
+C:\Users\Otospector\Documents\(20210909)HP\Documents\ARMAN\New folder\Project\MyWeb - oNE - Copy\trunk\Core.ConsoleTest\obj\Debug\Core.ConsoleTest.pdb

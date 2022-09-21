@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SQL_USER_ONEModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="Sp_get_application_by_role" ReturnType="Collection(SQL_USER_ONEModel.Sp_get_application_by_role_Result)">
+      <Parameter Name="RoleId" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="Sp_get_navbar_by_role_app" ReturnType="Collection(SQL_USER_ONEModel.Sp_get_navbar_by_role_app_Result)">
+      <Parameter Name="RoleId" Mode="In" Type="String" />
+      <Parameter Name="ApplicationId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_insert_menurole">
+      <Parameter Name="RoleId" Mode="In" Type="Guid" />
+      <Parameter Name="NavbarId" Mode="In" Type="Guid" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="Sp_get_application_by_role_Result">
+    <Property Type="Int32" Name="ApplicationId" Nullable="false" />
+    <Property Type="String" Name="ApplicationName" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="ApplicationDescription" Nullable="true" MaxLength="200" />
+    <Property Type="Int32" Name="Used" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="Sp_get_navbar_by_role_app_Result">
+    <Property Type="Guid" Name="MenuId" Nullable="false" />
+    <Property Type="Guid" Name="ParentId" Nullable="true" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Text" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="Controller" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="Action" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="Area" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="faicon" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="description" Nullable="true" MaxLength="500" />
+    <Property Type="Int32" Name="ImageClassId" Nullable="true" />
+    <Property Type="String" Name="Activeli" Nullable="true" MaxLength="30" />
+    <Property Type="Boolean" Name="Status" Nullable="false" />
+    <Property Type="Boolean" Name="IsParent" Nullable="false" />
+    <Property Type="Int32" Name="ApplicationId" Nullable="true" />
+    <Property Type="String" Name="CreateBy" Nullable="true" />
+    <Property Type="DateTime" Name="CreateDate" Nullable="true" Precision="23" />
+    <Property Type="String" Name="UpdateBy" Nullable="true" />
+    <Property Type="DateTime" Name="UpdateDate" Nullable="true" Precision="23" />
+    <Property Type="String" Name="ApproveBy" Nullable="true" />
+    <Property Type="DateTime" Name="ApproveDate" Nullable="true" Precision="23" />
+    <Property Type="Int32" Name="CompanyId" Nullable="true" />
+    <Property Type="Int32" Name="BranchId" Nullable="true" />
+    <Property Type="Boolean" Name="IsDelete" Nullable="false" />
+    <Property Type="String" Name="RejectBy" Nullable="true" />
+    <Property Type="DateTime" Name="RejectDate" Nullable="true" Precision="23" />
+    <Property Type="String" Name="RejectReason" Nullable="true" />
+    <Property Type="Int32" Name="StatusData" Nullable="false" />
+    <Property Type="Int32" Name="SortId" Nullable="true" />
+    <Property Type="Int32" Name="Used" Nullable="false" />
+  </ComplexType>
+</Schema>

@@ -1,0 +1,11 @@
+﻿@using Core.Web.Helpers
+@model MyWeb.Models.ImageClass
+@{
+	var imageClass = Html.Angular().ModelFor("vm.imageclass");
+}
+<div class="panel panel-default">
+	<div class="panel-heading">
+        Id: @imageClass.BindingFor(x => x.ImageClassId)<br />
+        Name: @imageClass.BindingFor(x => x.ImageClassName)
+	</div>	
+</div>

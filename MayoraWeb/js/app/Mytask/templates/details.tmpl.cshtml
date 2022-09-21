@@ -1,0 +1,44 @@
+﻿@using Core.Web.Helpers
+@model Core.Web.Models.Applications.MyTask
+@{
+    var _model = Html.Angular().ModelFor("vm.mytask");
+}
+<form class="form-horizontal"
+      novalidate
+      name="vm.form"
+      ng-submit="vm.form.$valid && vm.save()">
+    <fieldset ng-disabled="vm.saving">
+
+        <div class="modal-header">
+            <h3 class="modal-title">{{vm.title}}</h3>
+        </div>
+
+        <div class="modal-body">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3>
+                        {{vm.mytask.title}} <br />
+                        <small>Mandays : {{vm.mytask.startdate | dateFormat}} until {{vm.mytask.enddate | dateFormat }}</small>
+                    </h3>
+                    @_model.FormGroupFor(x => x.progres).Disabled("true")
+                    @(Html.Angular().TexthtmlFor("vm.mytask.description")
+                              .Title("Description")
+                              .Disabled("true")
+                              .editorFitur(editorFitur.simple)
+                    )
+                </div>
+                <div class="col-lg-6">
+                    @(Html.Angular().TexthtmlFor("vm.mytask.note")
+                                      .Title("Note")
+                                      .Disabled("true")
+                              .editorFitur(editorFitur.standart)
+                    )
+                </div>
+            </div>
+        </div>
+
+        <div class="modal-footer">
+            <button type="button" class="btn btn-warning" ng-click="$parent.$dismiss()">Cancel</button>
+        </div>
+    </fieldset>
+</form>

@@ -1,0 +1,137 @@
+﻿@using Core.Web.Helpers
+@using MyWeb.Controllers
+@model MyWeb.ViewModels.Applications.ProfileViewModel
+
+@{
+    ViewBag.Title = "Change Profile";
+}
+
+@*<h1 class="page-header">Update Profile</h1>*@
+<div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header">Update Profile</h1>
+    </div>
+    <!-- /.col-lg-12 -->
+</div>
+
+<form novalidate
+      name="vm.form"
+      ng-controller="EditProfileController as vm"     
+      ng-submit="vm.save()"
+      style="max-width: 500px;">
+    <fieldset ng-disabled="vm.saving">
+        
+        <div class="alert alert-info" ng-show="vm.errorMessage == null && !vm.saving && !vm.success">
+            Make Profile changes below.
+        </div>
+        <div class="alert alert-info" ng-show="vm.saving">
+            Saving changes...
+        </div>
+        <div class="alert alert-success" ng-show="vm.success">
+            <span class="fa fa-check"></span>
+            Changes saved!
+        </div>
+        <div class="alert alert-danger" ng-show="vm.errorMessage != null">
+            {{vm.errorMessage}}
+        </div>
+
+        <div class="form-group has-feedback">
+            <label class="control-label" for="FirstName">First Name</label>
+            <input required ng-model="vm.profile.firstName"
+                   class="form-control" name="FirstName" type="text" placeholder="Your first name...">
+        </div>
+
+        <div class="form-group has-feedback">
+            <label class="control-label" for="LastName">Last Name</label>
+            <input required ng-model="vm.profile.lastName"
+                   class="form-control" name="LastName" type="text" placeholder="Your last name...">
+        </div>        
+
+        <div class="form-group has-feedback">
+            <label class="control-label" for="Email">Email</label>
+            <input required ng-model="vm.profile.email"
+                   class="form-control" name="Email" type="email" placeholder="your@email.com...">
+        </div>
+
+        @*@using (Html.BeginForm("ChangeProfile", "Manage", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+        {*@
+            @*@Html.AntiForgeryToken()
+            @Html.ValidationSummary("", new { @class = "text-danger" })*@
+
+            @*<div class="form-group">
+                @Html.LabelFor(m => m.FirstName, new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.LastName, new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    @Html.TextBoxFor(m => m.LastName, new { @class = "form-control" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.Address, new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    @Html.TextBoxFor(m => m.Address, new { @class = "form-control" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.City, new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    @Html.TextBoxFor(m => m.City, new { @class = "form-control" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.State, new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    @Html.TextBoxFor(m => m.State, new { @class = "form-control" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.ZipCode, new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    @Html.TextBoxFor(m => m.ZipCode, new { @class = "form-control" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.Email, new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                </div>
+            </div>*@
+
+
+            @*<div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" class="btn btn-default" value="Update" />
+                </div>
+            </div>*@
+
+            <div class="form-group">
+                <button class="btn btn-success">Save Changes</button>
+                @*<a class="btn btn-warning" href="/">Cancel</a>*@
+            </div>
+   </fieldset>
+</form>
+        @*}*@
+
+        @section Scripts {
+            @Scripts.Render("~/bundles/jqueryval")
+
+            <script>
+                var url = '@(Html.BuildUrlFromExpression<ManageController>(c => c.UpdateProfile(null)))';
+
+                window.app.constant('editProfileConfig', {
+                    saveUrl: url
+                });
+
+                window.app.constant('model', @Html.JsonFor(Model));
+            </script>
+        }

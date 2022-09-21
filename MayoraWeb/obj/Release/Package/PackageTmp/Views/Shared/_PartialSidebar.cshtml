@@ -1,0 +1,75 @@
+﻿<!-- Left side column. contains the logo and sidebar -->
+<script type="text/ng-template" id="navbarTree">
+    <a href="" ng-if="navbar.children.length > 0" title="{{ navbar.item.description }}">
+        <i class="{{ navbar.item.faicon }}"></i>
+        <span ng-bind="navbar.item.text"></span>
+        <span class="pull-right-container">
+            <i class="fa fa-angle-left pull-right"></i>
+        </span>
+    </a>
+    <a href="#" ng-if="navbar.children.length <= 0" ui-sref="{{ navbar.item.name }}" title="{{ navbar.item.description }}">
+        <i class="{{ navbar.item.faicon }}"></i>
+        <span ng-bind="navbar.item.text"></span>
+    </a>
+    <ul class="treeview-menu" ng-if="navbar.children.length > 0">
+        <li ng-repeat="navbar in navbar.children" ng-include="'navbarTree'"></li>
+    </ul>
+</script>
+
+<aside class="main-sidebar">
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar" ng-controller="navbarmanuController as vm">
+        
+        <!-- sidebar menu: : style can be found in sidebar.less -->
+        <ul class="sidebar-menu">
+            <li class="header">MAIN NAVIGATION</li>
+            <li class="active">
+                <a ui-sref="home" title="Integerated fiture all application">
+                    <i class="fa fa-dashboard"></i> <span>Dashboard</span>
+                </a>
+            </li>
+            <li class="treeview" ng-repeat="navbar in vm.navbarlist" ng-include="'navbarTree'"></li>
+            <li class="header">EXTENSION</li>
+            @*<li>
+                <a ui-sref="mycalender" href="#" title="Art your activity">
+                    <i class=" fa fa-calendar text-green"></i> <span>Calendar</span>
+                    <span class="pull-right-container">
+                        <small class="label pull-right bg-red">3</small>
+                        <small class="label pull-right bg-blue">17</small>
+                    </span>
+                </a>
+            </li>*@
+            <li>
+                <a ui-sref="mytask" href="#" title="A little more action">
+                    <i class="fa fa-tasks text-red"></i> <span>Task</span>
+                    <span class="pull-right-container">
+                        <small class="label pull-right bg-green">new</small>
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a ui-sref="my-note" href="#" title="Write your important thing">
+                    <i class="fa fa-sticky-note-o text-yellow"></i> <span>Note</span>
+                    <span class="pull-right-container">
+                        <small class="label pull-right bg-green">new</small>
+                    </span>
+                </a>
+            </li>
+            <li><a target="_blank" ng-href="{{vm.linkapp}}"><i class="fa fa-book text-aqua"></i> <span>Documentation</span></a></li>
+        </ul>
+    </section>
+    <!-- /.sidebar -->
+</aside>
+
+<!-- Control Sidebar -->
+<aside class="control-sidebar control-sidebar-dark">
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <!-- Home tab content -->
+        <div class="tab-pane" id="control-sidebar-home-tab">
+        </div>
+        <!-- /.tab-pane -->
+    </div>
+</aside>
+<!-- /.control-sidebar -->

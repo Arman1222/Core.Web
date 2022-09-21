@@ -1,0 +1,45 @@
+﻿@using Core.Web.Helpers
+@model MyWeb.ViewModels.area_master.sp_areaMaster_Model
+@{
+    var editModel = Html.Angular().ModelFor("vm.masterarea");
+}
+@*//o20170928*@
+<form novalidate
+      name="vm.form"
+      ng-submit="vm.save()">
+    <fieldset ng-disabled="vm.saving">
+        <div class="modal-header">
+            <h3 class="modal-title">{{vm.title}} Area Master</h3>
+        </div>
+
+        <div class="modal-body">
+            @*<div class="row">
+                <div class="col-lg-6">
+                    @editModel.FormGroupFor(x => x.AreaId).SetLabelSize("col-lg-3").SetInputSize("col-lg-9")
+                </div>
+            </div>*@
+            <div class="row">
+                <div class="col-lg-12">
+                    @editModel.FormGroupFor(x => x.AreaCode).SetLabelSize("col-lg-3").SetInputSize("col-lg-9").Disabled("true")
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    @editModel.FormGroupFor(x => x.AreaName).SetLabelSize("col-lg-3").SetInputSize("col-lg-9")
+                </div>
+            </div>
+        </div>
+
+        <div class="modal-footer">
+            <div class="row">
+                <div class="col-lg-12">
+                    @Html.Angular().AlertGlobal("vm.message")
+                </div>
+            </div>
+            <button class="btn btn-success">Edit</button>
+            <button type="button" class="btn btn-warning" ng-click="$dismiss()">Cancel</button>
+        </div>
+
+    </fieldset>
+</form>
+

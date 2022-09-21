@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Heroic.AutoMapper</id>
+    <version>1.1.0</version>
+    <title>Heroic.AutoMapper</title>
+    <authors>Matt Honeycutt - Heroic Applications - http://heroicapplications.com</authors>
+    <owners>Matt Honeycutt - Heroic Applications - http://heroicapplications.com</owners>
+    <licenseUrl>https://github.com/MattHoneycutt/HeroicFramework/blob/master/Heroic.AutoMapper/license.txt</licenseUrl>
+    <projectUrl>https://github.com/MattHoneycutt/HeroicFramework/tree/master/Heroic.AutoMapper</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Conventionally create and configure AutoMapper mappings.</description>
+    <summary />
+    <releaseNotes />
+    <copyright>Copyright 2015</copyright>
+    <tags>AutoMapper Heroic MVC</tags>
+    <dependencies>
+      <dependency id="AutoMapper" version="3.3.0" />
+      <dependency id="WebActivatorEx" version="2.0.6" />
+    </dependencies>
+  </metadata>
+</package>

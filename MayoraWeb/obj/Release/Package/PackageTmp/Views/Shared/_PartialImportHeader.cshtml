@@ -1,0 +1,70 @@
+﻿@{
+    string urlContentAdminLTE = ViewData["path"] + @"AdminLTE-2.3.11/";
+    string urlContentOld = ViewData["path"] + @"ContentOld/";
+    string urlAppjsOld = ViewData["path"] + @"js/";
+}
+
+<!-- Bootstrap 3.3.6 -->
+<link rel="stylesheet" href="@(urlContentAdminLTE)bootstrap/css/bootstrap.min.css">
+<!-- Font Awesome -->
+<link href="@(urlContentAdminLTE)css/font-awesome.min.css" rel="stylesheet" />
+<!-- Ionicons -->
+<link href="@(urlContentAdminLTE)css/ionicons.min.css" rel="stylesheet" />
+<!-- Theme style -->
+<link rel="stylesheet" href="@(urlContentAdminLTE)dist/css/AdminLTE.min.css">
+<!-- AdminLTE Skins. Choose a skin from the css/skins
+     folder instead of downloading all of them to reduce the load. -->
+<link rel="stylesheet" href="@(urlContentAdminLTE)dist/css/skins/_all-skins.min.css">
+<!-- iCheck -->
+<link rel="stylesheet" href="@(urlContentAdminLTE)plugins/iCheck/flat/blue.css">
+<!-- Morris chart -->
+<link rel="stylesheet" href="@(urlContentAdminLTE)plugins/morris/morris.css">
+<!-- jvectormap -->
+<link rel="stylesheet" href="@(urlContentAdminLTE)plugins/jvectormap/jquery-jvectormap-1.2.2.css">
+<!-- Date Picker -->
+@*<link rel="stylesheet" href="@(urlContentAdminLTE)plugins/datepicker/datepicker3.css">*@
+<!-- Daterange picker -->
+@*<link rel="stylesheet" href="@(urlContentAdminLTE)plugins/daterangepicker/daterangepicker.css">*@
+<!-- bootstrap wysihtml5 - text editor -->
+<link rel="stylesheet" href="@(urlContentAdminLTE)plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
+<!-- Standard Site -->
+<link rel="stylesheet" href="@(urlContentAdminLTE)css/site.css">
+<!-- DataTables -->
+<link rel="stylesheet" href="@(urlContentAdminLTE)plugins/datatables/dataTables.bootstrap.css">
+  <!-- fullCalendar 2.2.5-->
+<link rel="stylesheet" href="@(urlContentAdminLTE)plugins/fullcalendar/fullcalendar.min.css">
+<link rel="stylesheet" href="@(urlContentAdminLTE)plugins/fullcalendar/fullcalendar.print.css" media="print">
+  <!-- Ionicons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+<!-- Ion Slider -->
+<link rel="stylesheet" href="@(urlContentAdminLTE)plugins/ionslider/ion.rangeSlider.css">
+<!-- ion slider Nice -->
+<link rel="stylesheet" href="@(urlContentAdminLTE)plugins/ionslider/ion.rangeSlider.skinNice.css">
+
+
+<!-- Old Css invy -->
+<link href="@(urlContentOld)timeline.css" rel="stylesheet" />
+<link href="@(urlContentOld)angular-block-ui.min.css" rel="stylesheet" />
+@*<link href="@(urlContentOld)sb-admin-2.css" rel="stylesheet" />
+    <link href="@(urlContentOld)site.css" rel="stylesheet" />*@
+<link href="@(urlContentOld)codepen.min.css" rel="stylesheet" />
+<link href="@(urlContentOld)multiple-select.css" rel="stylesheet" />
+<link href="@(urlContentOld)ng-bs3-datepicker.css" rel="stylesheet" />
+@*<link href="@(urlContentOld)layout.css" rel="stylesheet" />*@
+<link href="@(urlContentOld)ui-grid.css" rel="stylesheet" />
+<link href="@(urlContentOld)datepicker.css" rel="stylesheet" />
+
+<link href="@(urlContentOld)angular-ui-tree.css" rel="stylesheet" />
+<!-- Old Invy -->
+<script src="@(urlAppjsOld)plugins/underscore.js"></script>
+<script src="@(urlAppjsOld)plugins/modernizr-2.6.2.js"></script>
+
+<!-- jQuery 2.2.3 -->
+<script src="@(urlContentAdminLTE)plugins/jQuery/jquery-2.2.3.min.js"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="@(urlContentAdminLTE)js/jquery-ui.min.js"></script>
+<!-- Bootstrap 3.3.6 -->
+<script src="@(urlContentAdminLTE)bootstrap/js/bootstrap.min.js"></script>
+
+<!-- Old Invy -->
+<script src="@(urlAppjsOld)plugins/respond.js"></script>

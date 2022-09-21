@@ -1,0 +1,27 @@
+﻿@using Core.Web.Helpers
+@using MyWeb.ViewModels.euser
+@model dynamic
+@{
+    Layout = null;
+}
+<div ng-controller="master_userController as vm">
+        @(Html.Angular()
+                .GridFor("vm.master_userGetPage")
+                            .Title("Master User List")
+                            .Message("vm.message")
+                            .TableActions("vm.tableActions")
+                            .RefreshData("vm.refreshData")
+                            .AddData("vm.add")
+        .Columns<sp_usermasterModel>(config =>
+        {
+            config.Add(x => x, "Action", null, "<div>&nbsp;&nbsp;<a href='' ng-click='grid.appScope.tableActions.onEdit(row.entity)'><i class='fa fa-edit fa-lg' data-toggle='tooltip' title='Edit'></i></a>&nbsp;&nbsp;<a href='' ng-click='grid.appScope.tableActions.onHapus(row.entity)'><i class='fa fa-trash fa-lg' data-toggle='tooltip' title='Delete'></i></a>&nbsp;&nbsp;<a href='' ng-click='grid.appScope.tableActions.onCheck(row.entity)'><i class='fa fa-check fa-lg' data-toggle='tooltip' title='Module Allowed'></i></a></div>", width: 80);
+            config.Add(x => x.Name, "User Name");
+            config.Add(x => x.RealName, "Real Name");
+            config.Add(x => x.Office, "Kantor");
+            config.Add(x => x.Status);
+            config.Add(x => x.ExpiredDate, "Expired Date", "dateFormat");
+            config.Add(x => x.MaxPassWrong, "Max Pass Wrong");
+            config.Add(x => x.LastLogin, null, "dateFormat");
+            config.Add(x => x.NIK, "N I K");
+        }))
+</div>

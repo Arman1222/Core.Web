@@ -1,0 +1,286 @@
+﻿@using Core.Web.Helpers
+@using MyWeb.ViewModels.Customers
+@model MyWeb.ViewModels.Customers.CustomerViewModel
+@{
+	var customer = Html.Angular().ModelFor("vm.customer"); 
+}
+    <form class="form-horizontal"
+          novalidate
+          name="vm.form"
+          ng-submit="vm.form.$valid && vm.save()">
+        <fieldset ng-disabled="vm.saving">
+
+            <div class="modal-header">
+                <h3 class="modal-title">{{vm.title}}</h3>
+                <button type="button" class="btn btn-danger" ng-click="vm.testError()">Test Error</button>
+            </div>
+
+            <div class="modal-body">
+                <div class="alert alert-info" ng-hide="vm.errorMessage != null">
+                    Enter details for the new customer below.
+                </div>
+                <div class="alert alert-danger" ng-show="vm.errorMessage != null">
+                    {{vm.errorMessage}}
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        @Html.Angular().AlertGlobal("vm.message")
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6">
+                        <hr />
+                        <h2>Standart From Group</h2>
+                        <hr />
+
+
+                        @(customer.FormGroupFor(x => x.Name)
+                            .OnChange("vm.onChangeName()")
+                                    .OnBlur("vm.onBlurName()")
+                                                    .SetLabelSize("col-sm-4")
+                                                    .SetInputSize("col-sm-8")
+                                .AddValidation("vm.isNameNotValid", "Nama harus Admin")
+                        )
+
+                        @customer.FormGroupFor(x => x.Email).OnChange("vm.onChangeEmail()").SetInputSize("col-sm-8").SetLabelSize("col-sm-4").OnBlur("vm.onBlurEmail()")
+
+                        @customer.FormGroupFor(x => x.Phone).OnChange("vm.onChangePhone()").SetInputSize("col-sm-8").SetLabelSize("col-sm-4").OnBlur("vm.onBlurPhone()")
+
+                        @customer.FormGroupFor(x => x.Total).OnChange("vm.onChangeTotal()").SetInputSize("col-sm-8").SetLabelSize("col-sm-4").OnBlur("vm.onBlurTotal()").OnKeyPress("vm.onKeyPressTotal()")
+
+                        @customer.FormGroupFor(x => x.Nominal).OnChange("vm.onChangeNominal()").SetInputSize("col-sm-8").SetLabelSize("col-sm-4").OnBlur("vm.onBlurNominal()").OnKeyPress("vm.onKeyPressNominal()").AddValidation("vm.isNominalNotValid", "Nominal harus lebih besar dari 0")
+
+                        @customer.FormGroupFor(x => x.TerminationDate).OnChange("vm.onChangeTerminationDate()").SetInputSize("col-sm-8").SetLabelSize("col-sm-4").OnBlur("vm.onBlurTerminationDate()").MinDate("vm.minDate").MaxDate("vm.maxDate")
+
+                        @customer.FormGroupFor(x => x.StartTime).OnChange("vm.onChangeStartTime()").SetInputSize("col-sm-8").SetLabelSize("col-sm-4").OnBlur("vm.onBlurStartTime()")
+
+                        @customer.FormGroupFor(x => x.Aktif).OnChange("vm.onChangeStartTime()").SetInputSize("col-sm-8").SetLabelSize("col-sm-4").OnBlur("vm.onBlurStartTime()")
+
+                        @(customer.FormGroupFor(x => x.CustomerType)
+                                .OnChange("vm.onChangeCustomerType()")
+                                        .OnBlur("vm.onBlurCustomerType()")
+                                            .SetLabelSize("col-sm-4")
+                                            .SetInputSize("col-sm-8")
+                        )
+
+                        @customer.FormGroupFor(x => x.Address).SetInputSize("col-sm-9").SetLabelSize("col-sm-3").OnChange("vm.onChangeAddress()").OnBlur("vm.onBlurAddress()")
+
+                    </div>
+                    <div class="col-lg-6">
+                        <hr />
+                        <h2>Custom HTML Angular</h2>
+                        <hr />
+
+                        
+
+                        @(Html.Angular().PicklistFor("vm.selectedCustomerTemenos")
+                        .Title("Customer Temenos")
+                        .Id("cifNo")
+                        .Name("nama")
+                        .SearchParams("vm.param")
+                                .ListService("vm.customertemenosGetPage")
+                                .LabelSize("col-sm-4")
+                                .InputSize("col-sm-8")
+                                .Message("vm.message")
+                                .DefaultValue("Default Customer")
+                        )
+
+                        @(Html.Angular().UploadDataFor("vm.modelUpload")
+                                    .Title("Upload Data")
+                                            .OnChange("vm.uploadDataChange()")
+                                            .Data("vm.uploadData")
+                                            .LabelSize("col-sm-4")
+                                            .InputSize("col-sm-8")
+                        )
+
+                        @(Html.Angular().FileUploadFor("vm.modelUploadFile")
+                                            .Title("Upload File")
+                                            .OnChange("vm.onUploadFileChange()")
+                                            .Error("vm.fileerror")
+                                            .MaxSize("10MB")
+                                            .Folder("UjiCoba")
+                                            .LabelSize("col-sm-4")
+                                            .InputSize("col-sm-8")
+                                            .SetFile("vm.setImage")
+                        )
+
+                        <button class="btn btn-primary" ng-click="vm.action()">Set File</button>
+                        <hr />
+
+                        @(Html.Angular().TextFor("vm.selectedInputText")
+                                    .Title("Text ")
+                                    .LabelSize("col-sm-4")
+                                    .InputSize("col-sm-8")
+                                    .DefaultValue("Default Text")
+                                    .Disabled("true")
+                        )
+
+                        @(Html.Angular().EnumFor("vm.selectedCustomerType")
+                                    .Title("Customer Type Test")
+                                    .EnumType("MyWeb.Models.Customers.CustomerType,MyWeb")
+                                    .LabelSize("col-sm-4")
+                                    .InputSize("col-sm-8")
+                        )
+
+                        @(Html.Angular().DateFor("vm.selectedDateTest")
+                            .Title("Test Date")
+                            .OnChange("vm.onChangeDateTest()")
+                            .OnBlur("vm.onBlurDateTest()")
+                            .MinDate("vm.minDate")
+                            .LabelSize("col-sm-4")
+                            .InputSize("col-sm-8")
+                        )
+
+                        @(Html.Angular().MonthFor("vm.selectedMonthTest")
+                            .Title("Test Month")
+                            .OnChange("vm.onChangeMonthTest()")
+                            .OnBlur("vm.onBlurMonthTest()")
+                            .DateFormat("M yy")
+                            .LabelSize("col-sm-4")
+                            .InputSize("col-sm-8")
+                        )
+
+                        @(Html.Angular().NumberFor("vm.selectedNumberTest")
+                            .Title("Test NumberTesting")
+                            .Start("0")
+                            .Min("-10000")
+                            .Max("100000")
+                            .Hint("-10000 - 100000")
+                            .OnChange("vm.onChangeNumberTest()")
+                            .OnBlur("vm.onBlurNumberTest()")
+                            .DisableDecimal(true)
+                            .LabelSize("col-sm-4")
+                            .InputSize("col-sm-8")
+                            .DefaultValue(1000)
+                                //.Disabled("true")
+                        )
+
+                        @(Html.Angular().CheckboxFor("vm.selectedCheckboxTest")
+                                    .Title("Test Checkbox")
+                                    .OnChange("vm.onChangeCheckboxTest()")
+                                    .OnBlur("vm.onBlurCheckboxTest()")
+                                    .LabelSize("col-sm-4")
+                                    .InputSize("col-sm-8")
+                                //.Disabled("true")
+                        )
+
+                        @(Html.Angular().EnumFor("vm.selectedEnumTest")
+                                    .Title("Test Enum")
+                                    .EnumType("Core.Web.Utilities.StatusData")
+                                    .OnChange("vm.onChangeEnumTest()")
+                                            .OnBlur("vm.onBlurEnumTest()")
+                                            .LabelSize("col-sm-4")
+                                            .InputSize("col-sm-8")
+                        )
+                        
+                        @(Html.Angular().ComboboxFor("vm.selectedImageclassCombobox")
+                            .Title("Image Class")
+                            .Id("imageClassId")
+                            .Name("imageClassName")
+                            .Items("vm.imageclassCombobox")
+                            .OnSelect("vm.onSelectImageClassCombobox()")
+                            .SetLabelSize("col-sm-4")
+                            .SetInputSize("col-sm-8")
+                            .AddValidation("vm.isImageClassComboboxNotValid", "Image Class harus dipilih!")
+                        )
+
+                        @(Html.Angular().PicklistFor("vm.selectedImageclassPicklist")
+                              .Title("Image Class")
+                              .Id("imageClassId")
+                              .Name("imageClassName")
+                              //.Picklist("vm.imageclassPicklist")
+                              .ListService("vm.imageclassLoadAll")
+                              .OnSelect("vm.onSelectImageClassPicklist()")
+                              .Message("vm.message")
+                              .AddValidation("vm.isImageClassPicklistNotValid", "Image Class harus dipilih!")
+                              .ShowColumns("imageClassId")
+                              .SetLabelSize("col-sm-4")
+                              .SetInputSize("col-sm-8")
+                                //.HideColumns("imageClassId,imageClassName")
+                        )
+
+                        @(Html.Angular().PicklistFor("vm.selectedUser")
+                              .Title("User")
+                              .Id("id")
+                              .Name("userName")
+                              .ListService("vm.applicationusersGetPage")
+                              .OnSelect("vm.onSelectApplicationUsers()")
+                              .Message("vm.message")
+                              .SetLabelSize("col-sm-4")
+                              .SetInputSize("col-sm-8")
+                        )
+
+                        @(Html.Angular().PicklistFor("vm.selectedCustomerTemenos")
+                              .Title("Customer Temenos")
+                              .Id("cifNo")
+                              .Name("nama")
+                              .ListService("vm.customertemenosGetPage")
+                              .OnSelect("vm.onSelectCustomerTemenos()")
+                              .Message("vm.message")
+                              .SetLabelSize("col-sm-4")
+                              .SetInputSize("col-sm-8")
+                        )
+
+                        @(Html.Angular().MultiselectFor("vm.skills")
+                              .Title("Skill Select")
+                              .Name("name")
+                              .ListItem("vm.skillsList")
+                              .OnSelect("vm.selectItemCallback")
+                              .OnRemove("vm.removeItemCallback")
+                              //.BeforeSelect("vm.selectItemCallback")
+                              //.BeforeRemove("vm.removeItemCallback")
+                              .SetLabelSize("col-sm-4")
+                              .SetInputSize("col-sm-8")
+                        )
+                        
+                        @(Html.Angular().MultiselectPicklistFor("vm.selectedCustomerTemenos")
+                              .Title("Multi Picklist")
+                              .Name("nama")
+                              .ListService("vm.customertemenosGetPage")
+                              .OnSelect("vm.selectItemCallback")
+                              .OnRemove("vm.removeItemCallback")
+                                //.BeforeSelect("vm.selectItemCallback")
+                                //.BeforeRemove("vm.removeItemCallback")
+                              .SetLabelSize("col-sm-4")
+                              .SetInputSize("col-sm-8")
+                        )
+                        @*<multiple-autocomplete-pick ng-model="m.selectedCustomerTemenos"
+                                                    object-property="nama"
+                                                    list-service="vm.customertemenosGetPage"
+                                                    before-select-item="vm.selectItemCallback"
+                                                    after-select-item="vm.selectItemCallback"
+                                                    before-remove-item="vm.removeItemCallback"
+                                                    after-remove-item="vm.removeItemCallback">
+                        </multiple-autocomplete-pick>*@
+
+                        @*<label>Selected Model Value :<br /></label>{{vm.skills}}
+                        <br />
+                        <label><u>Event Listeners</u></label><br />
+                        <span>Selected Item : {{vm.selectedItem}}</span><br />
+                        <span>Removed Item : {{vm.removedItem}}</span>*@
+                    </div>
+                    
+                    <div class="col-lg-12">
+                        @(Html.Angular().TexthtmlFor("vm.cekin")
+                              .Title("HTML Editor")
+                              //.Disabled("true")
+                              .editorFitur(editorFitur.simple)
+                              .OnBlur("vm.blur()")
+                              .OnChange("vm.change()")
+                              .Hint("Hint Dicoba")
+                        )
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button class="btn btn-success">Add</button>
+                <button type="button" class="btn btn-warning" ng-click="$dismiss()">Cancel</button>
+            </div>
+
+        </fieldset>
+    </form>
+

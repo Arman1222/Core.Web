@@ -1,0 +1,19 @@
+﻿<div class="ng-ms form-item-container">
+    <ul class="list-inline">
+        <li ng-repeat="item in ngModel">
+            <span ng-if="objectProperty == undefined || objectProperty == ''">
+                {{item}} <span class="remove" ng-click="removeAddedValues(item)">
+                    <i class="glyphicon glyphicon-remove"></i>
+                </span>&nbsp;
+            </span>
+            <span ng-if="objectProperty != undefined && objectProperty != ''">
+                {{item[objectProperty]}} <span class="remove" ng-click="removeAddedValues(item)">
+                    <i class="glyphicon glyphicon-remove"></i>
+                </span>&nbsp;
+            </span>
+        </li>
+        <li>
+            <div class="btn btn-sm btn-success" ng-disabled="ngDisabled" ng-click="show()">Add</div>
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,28 @@
+﻿@using Core.Web.Helpers
+
+<div class="modal-header">
+    <h3><i class="fa fa-laptop"></i>Search {{title}}</h3>    
+</div>
+
+<div class="modal-body">
+    <div style="margin-bottom: 5px;">
+        <a class="btn btn-sm btn-danger" ng-click="close()"> <span class="glyphicon glyphicon-chevron-left"></span>  Close</a>
+    </div>
+
+
+    <modal-grid grid-data="listService"
+                title="{{title}}"
+                message="message"
+                enable-select="True"
+                sort-by="sortBy"
+                selected-rows="rowselected"
+                search-params="searchParams"
+                refresh-data="refreshData"
+                show-columns="showColumns"
+                hide-columns="hideColumns" />
+</div>
+
+<div class="modal-footer">
+    <div class="btn btn-primary" ng-click="select(rowselected)">Select</div>
+    <div class="btn btn-warning" ng-click="close()">Cancel</div>
+</div>
